@@ -1,0 +1,1660 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Sponge
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/cl/Code/C/sponge-cl/cmake-build-debug/
+
+#############################################
+# Utility command for doc
+
+build doc: phony CMakeFiles/doc
+
+
+#############################################
+# Utility command for format
+
+build format: phony CMakeFiles/format
+
+
+#############################################
+# Utility command for tidy_quiet_apps__webget.cc
+
+build tidy_quiet_apps__webget.cc: phony CMakeFiles/tidy_quiet_apps__webget.cc
+
+
+#############################################
+# Utility command for tidy_apps__webget.cc
+
+build tidy_apps__webget.cc: phony CMakeFiles/tidy_apps__webget.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__address_dt.cc
+
+build tidy_quiet_doctests__address_dt.cc: phony CMakeFiles/tidy_quiet_doctests__address_dt.cc
+
+
+#############################################
+# Utility command for tidy_doctests__address_dt.cc
+
+build tidy_doctests__address_dt.cc: phony CMakeFiles/tidy_doctests__address_dt.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__address_example_1.cc
+
+build tidy_quiet_doctests__address_example_1.cc: phony CMakeFiles/tidy_quiet_doctests__address_example_1.cc
+
+
+#############################################
+# Utility command for tidy_doctests__address_example_1.cc
+
+build tidy_doctests__address_example_1.cc: phony CMakeFiles/tidy_doctests__address_example_1.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__address_example_2.cc
+
+build tidy_quiet_doctests__address_example_2.cc: phony CMakeFiles/tidy_quiet_doctests__address_example_2.cc
+
+
+#############################################
+# Utility command for tidy_doctests__address_example_2.cc
+
+build tidy_doctests__address_example_2.cc: phony CMakeFiles/tidy_doctests__address_example_2.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__address_example_3.cc
+
+build tidy_quiet_doctests__address_example_3.cc: phony CMakeFiles/tidy_quiet_doctests__address_example_3.cc
+
+
+#############################################
+# Utility command for tidy_doctests__address_example_3.cc
+
+build tidy_doctests__address_example_3.cc: phony CMakeFiles/tidy_doctests__address_example_3.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__parser_dt.cc
+
+build tidy_quiet_doctests__parser_dt.cc: phony CMakeFiles/tidy_quiet_doctests__parser_dt.cc
+
+
+#############################################
+# Utility command for tidy_doctests__parser_dt.cc
+
+build tidy_doctests__parser_dt.cc: phony CMakeFiles/tidy_doctests__parser_dt.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__parser_example.cc
+
+build tidy_quiet_doctests__parser_example.cc: phony CMakeFiles/tidy_quiet_doctests__parser_example.cc
+
+
+#############################################
+# Utility command for tidy_doctests__parser_example.cc
+
+build tidy_doctests__parser_example.cc: phony CMakeFiles/tidy_doctests__parser_example.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__socket_dt.cc
+
+build tidy_quiet_doctests__socket_dt.cc: phony CMakeFiles/tidy_quiet_doctests__socket_dt.cc
+
+
+#############################################
+# Utility command for tidy_doctests__socket_dt.cc
+
+build tidy_doctests__socket_dt.cc: phony CMakeFiles/tidy_doctests__socket_dt.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__socket_example_1.cc
+
+build tidy_quiet_doctests__socket_example_1.cc: phony CMakeFiles/tidy_quiet_doctests__socket_example_1.cc
+
+
+#############################################
+# Utility command for tidy_doctests__socket_example_1.cc
+
+build tidy_doctests__socket_example_1.cc: phony CMakeFiles/tidy_doctests__socket_example_1.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__socket_example_2.cc
+
+build tidy_quiet_doctests__socket_example_2.cc: phony CMakeFiles/tidy_quiet_doctests__socket_example_2.cc
+
+
+#############################################
+# Utility command for tidy_doctests__socket_example_2.cc
+
+build tidy_doctests__socket_example_2.cc: phony CMakeFiles/tidy_doctests__socket_example_2.cc
+
+
+#############################################
+# Utility command for tidy_quiet_doctests__socket_example_3.cc
+
+build tidy_quiet_doctests__socket_example_3.cc: phony CMakeFiles/tidy_quiet_doctests__socket_example_3.cc
+
+
+#############################################
+# Utility command for tidy_doctests__socket_example_3.cc
+
+build tidy_doctests__socket_example_3.cc: phony CMakeFiles/tidy_doctests__socket_example_3.cc
+
+
+#############################################
+# Utility command for tidy_quiet_libsponge__byte_stream.cc
+
+build tidy_quiet_libsponge__byte_stream.cc: phony CMakeFiles/tidy_quiet_libsponge__byte_stream.cc
+
+
+#############################################
+# Utility command for tidy_libsponge__byte_stream.cc
+
+build tidy_libsponge__byte_stream.cc: phony CMakeFiles/tidy_libsponge__byte_stream.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__address.cc
+
+build tidy_quiet_util__address.cc: phony CMakeFiles/tidy_quiet_util__address.cc
+
+
+#############################################
+# Utility command for tidy_util__address.cc
+
+build tidy_util__address.cc: phony CMakeFiles/tidy_util__address.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__buffer.cc
+
+build tidy_quiet_util__buffer.cc: phony CMakeFiles/tidy_quiet_util__buffer.cc
+
+
+#############################################
+# Utility command for tidy_util__buffer.cc
+
+build tidy_util__buffer.cc: phony CMakeFiles/tidy_util__buffer.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__eventloop.cc
+
+build tidy_quiet_util__eventloop.cc: phony CMakeFiles/tidy_quiet_util__eventloop.cc
+
+
+#############################################
+# Utility command for tidy_util__eventloop.cc
+
+build tidy_util__eventloop.cc: phony CMakeFiles/tidy_util__eventloop.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__file_descriptor.cc
+
+build tidy_quiet_util__file_descriptor.cc: phony CMakeFiles/tidy_quiet_util__file_descriptor.cc
+
+
+#############################################
+# Utility command for tidy_util__file_descriptor.cc
+
+build tidy_util__file_descriptor.cc: phony CMakeFiles/tidy_util__file_descriptor.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__parser.cc
+
+build tidy_quiet_util__parser.cc: phony CMakeFiles/tidy_quiet_util__parser.cc
+
+
+#############################################
+# Utility command for tidy_util__parser.cc
+
+build tidy_util__parser.cc: phony CMakeFiles/tidy_util__parser.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__socket.cc
+
+build tidy_quiet_util__socket.cc: phony CMakeFiles/tidy_quiet_util__socket.cc
+
+
+#############################################
+# Utility command for tidy_util__socket.cc
+
+build tidy_util__socket.cc: phony CMakeFiles/tidy_util__socket.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__tun.cc
+
+build tidy_quiet_util__tun.cc: phony CMakeFiles/tidy_quiet_util__tun.cc
+
+
+#############################################
+# Utility command for tidy_util__tun.cc
+
+build tidy_util__tun.cc: phony CMakeFiles/tidy_util__tun.cc
+
+
+#############################################
+# Utility command for tidy_quiet_util__util.cc
+
+build tidy_quiet_util__util.cc: phony CMakeFiles/tidy_quiet_util__util.cc
+
+
+#############################################
+# Utility command for tidy_util__util.cc
+
+build tidy_util__util.cc: phony CMakeFiles/tidy_util__util.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tests__byte_stream_capacity.cc
+
+build tidy_quiet_tests__byte_stream_capacity.cc: phony CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc
+
+
+#############################################
+# Utility command for tidy_tests__byte_stream_capacity.cc
+
+build tidy_tests__byte_stream_capacity.cc: phony CMakeFiles/tidy_tests__byte_stream_capacity.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tests__byte_stream_construction.cc
+
+build tidy_quiet_tests__byte_stream_construction.cc: phony CMakeFiles/tidy_quiet_tests__byte_stream_construction.cc
+
+
+#############################################
+# Utility command for tidy_tests__byte_stream_construction.cc
+
+build tidy_tests__byte_stream_construction.cc: phony CMakeFiles/tidy_tests__byte_stream_construction.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tests__byte_stream_many_writes.cc
+
+build tidy_quiet_tests__byte_stream_many_writes.cc: phony CMakeFiles/tidy_quiet_tests__byte_stream_many_writes.cc
+
+
+#############################################
+# Utility command for tidy_tests__byte_stream_many_writes.cc
+
+build tidy_tests__byte_stream_many_writes.cc: phony CMakeFiles/tidy_tests__byte_stream_many_writes.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tests__byte_stream_one_write.cc
+
+build tidy_quiet_tests__byte_stream_one_write.cc: phony CMakeFiles/tidy_quiet_tests__byte_stream_one_write.cc
+
+
+#############################################
+# Utility command for tidy_tests__byte_stream_one_write.cc
+
+build tidy_tests__byte_stream_one_write.cc: phony CMakeFiles/tidy_tests__byte_stream_one_write.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tests__byte_stream_test_harness.cc
+
+build tidy_quiet_tests__byte_stream_test_harness.cc: phony CMakeFiles/tidy_quiet_tests__byte_stream_test_harness.cc
+
+
+#############################################
+# Utility command for tidy_tests__byte_stream_test_harness.cc
+
+build tidy_tests__byte_stream_test_harness.cc: phony CMakeFiles/tidy_tests__byte_stream_test_harness.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tests__byte_stream_two_writes.cc
+
+build tidy_quiet_tests__byte_stream_two_writes.cc: phony CMakeFiles/tidy_quiet_tests__byte_stream_two_writes.cc
+
+
+#############################################
+# Utility command for tidy_tests__byte_stream_two_writes.cc
+
+build tidy_tests__byte_stream_two_writes.cc: phony CMakeFiles/tidy_tests__byte_stream_two_writes.cc
+
+
+#############################################
+# Utility command for tidy
+
+build tidy: phony CMakeFiles/tidy tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
+
+
+#############################################
+# Utility command for tidy_verbose
+
+build tidy_verbose: phony CMakeFiles/tidy_verbose tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
+
+
+#############################################
+# Utility command for check_webget
+
+build check_webget: phony CMakeFiles/check_webget
+
+
+#############################################
+# Utility command for check_lab0
+
+build check_lab0: phony CMakeFiles/check_lab0
+
+
+#############################################
+# Utility command for check_lab1
+
+build check_lab1: phony CMakeFiles/check_lab1
+
+
+#############################################
+# Utility command for check_lab2
+
+build check_lab2: phony CMakeFiles/check_lab2
+
+
+#############################################
+# Utility command for check_lab3
+
+build check_lab3: phony CMakeFiles/check_lab3
+
+
+#############################################
+# Utility command for check_lab4
+
+build check_lab4: phony CMakeFiles/check_lab4
+
+
+#############################################
+# Utility command for check_lab5
+
+build check_lab5: phony CMakeFiles/check_lab5
+
+
+#############################################
+# Utility command for check_lab6
+
+build check_lab6: phony CMakeFiles/check_lab6
+
+
+#############################################
+# Utility command for check
+
+build check: phony CMakeFiles/check
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/cl/Code/C/sponge-cl -B/Users/cl/Code/C/sponge-cl/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Custom command for CMakeFiles/doc
+
+build CMakeFiles/doc | ${cmake_ninja_workdir}CMakeFiles/doc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /opt/homebrew/bin/doxygen /Users/cl/Code/C/sponge-cl/cmake-build-debug/Doxyfile
+  DESC = Generate docs using Doxygen
+
+
+#############################################
+# Custom command for CMakeFiles/format
+
+build CMakeFiles/format | ${cmake_ninja_workdir}CMakeFiles/format: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && echo Could\ not\ find\ clang-format.\ Please\ install\ and\ re-run\ cmake
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_apps__webget.cc
+
+build CMakeFiles/tidy_quiet_apps__webget.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_apps__webget.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/apps/webget.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_apps__webget.cc
+
+build CMakeFiles/tidy_apps__webget.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_apps__webget.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/apps/webget.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__address_dt.cc
+
+build CMakeFiles/tidy_quiet_doctests__address_dt.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__address_dt.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_dt.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__address_dt.cc
+
+build CMakeFiles/tidy_doctests__address_dt.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__address_dt.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_dt.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__address_example_1.cc
+
+build CMakeFiles/tidy_quiet_doctests__address_example_1.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__address_example_1.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_example_1.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__address_example_1.cc
+
+build CMakeFiles/tidy_doctests__address_example_1.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__address_example_1.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_example_1.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__address_example_2.cc
+
+build CMakeFiles/tidy_quiet_doctests__address_example_2.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__address_example_2.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_example_2.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__address_example_2.cc
+
+build CMakeFiles/tidy_doctests__address_example_2.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__address_example_2.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_example_2.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__address_example_3.cc
+
+build CMakeFiles/tidy_quiet_doctests__address_example_3.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__address_example_3.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_example_3.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__address_example_3.cc
+
+build CMakeFiles/tidy_doctests__address_example_3.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__address_example_3.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/address_example_3.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__parser_dt.cc
+
+build CMakeFiles/tidy_quiet_doctests__parser_dt.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__parser_dt.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/parser_dt.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__parser_dt.cc
+
+build CMakeFiles/tidy_doctests__parser_dt.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__parser_dt.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/parser_dt.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__parser_example.cc
+
+build CMakeFiles/tidy_quiet_doctests__parser_example.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__parser_example.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/parser_example.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__parser_example.cc
+
+build CMakeFiles/tidy_doctests__parser_example.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__parser_example.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/parser_example.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__socket_dt.cc
+
+build CMakeFiles/tidy_quiet_doctests__socket_dt.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__socket_dt.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_dt.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__socket_dt.cc
+
+build CMakeFiles/tidy_doctests__socket_dt.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__socket_dt.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_dt.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__socket_example_1.cc
+
+build CMakeFiles/tidy_quiet_doctests__socket_example_1.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__socket_example_1.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_example_1.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__socket_example_1.cc
+
+build CMakeFiles/tidy_doctests__socket_example_1.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__socket_example_1.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_example_1.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__socket_example_2.cc
+
+build CMakeFiles/tidy_quiet_doctests__socket_example_2.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__socket_example_2.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_example_2.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__socket_example_2.cc
+
+build CMakeFiles/tidy_doctests__socket_example_2.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__socket_example_2.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_example_2.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_doctests__socket_example_3.cc
+
+build CMakeFiles/tidy_quiet_doctests__socket_example_3.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_doctests__socket_example_3.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_example_3.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_doctests__socket_example_3.cc
+
+build CMakeFiles/tidy_doctests__socket_example_3.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_doctests__socket_example_3.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/doctests/socket_example_3.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_libsponge__byte_stream.cc
+
+build CMakeFiles/tidy_quiet_libsponge__byte_stream.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_libsponge__byte_stream.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/byte_stream.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_libsponge__byte_stream.cc
+
+build CMakeFiles/tidy_libsponge__byte_stream.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_libsponge__byte_stream.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/byte_stream.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__address.cc
+
+build CMakeFiles/tidy_quiet_util__address.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__address.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/address.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__address.cc
+
+build CMakeFiles/tidy_util__address.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__address.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/address.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__buffer.cc
+
+build CMakeFiles/tidy_quiet_util__buffer.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__buffer.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/buffer.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__buffer.cc
+
+build CMakeFiles/tidy_util__buffer.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__buffer.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/buffer.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__eventloop.cc
+
+build CMakeFiles/tidy_quiet_util__eventloop.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__eventloop.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/eventloop.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__eventloop.cc
+
+build CMakeFiles/tidy_util__eventloop.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__eventloop.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/eventloop.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__file_descriptor.cc
+
+build CMakeFiles/tidy_quiet_util__file_descriptor.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__file_descriptor.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/file_descriptor.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__file_descriptor.cc
+
+build CMakeFiles/tidy_util__file_descriptor.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__file_descriptor.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/file_descriptor.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__parser.cc
+
+build CMakeFiles/tidy_quiet_util__parser.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__parser.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/parser.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__parser.cc
+
+build CMakeFiles/tidy_util__parser.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__parser.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/parser.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__socket.cc
+
+build CMakeFiles/tidy_quiet_util__socket.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__socket.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/socket.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__socket.cc
+
+build CMakeFiles/tidy_util__socket.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__socket.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/socket.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__tun.cc
+
+build CMakeFiles/tidy_quiet_util__tun.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__tun.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/tun.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__tun.cc
+
+build CMakeFiles/tidy_util__tun.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__tun.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/tun.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_util__util.cc
+
+build CMakeFiles/tidy_quiet_util__util.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__util.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/util.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_util__util.cc
+
+build CMakeFiles/tidy_util__util.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__util.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/util.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc
+
+build CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_capacity.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tests__byte_stream_capacity.cc
+
+build CMakeFiles/tidy_tests__byte_stream_capacity.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tests__byte_stream_capacity.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_capacity.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tests__byte_stream_construction.cc
+
+build CMakeFiles/tidy_quiet_tests__byte_stream_construction.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tests__byte_stream_construction.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_construction.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tests__byte_stream_construction.cc
+
+build CMakeFiles/tidy_tests__byte_stream_construction.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tests__byte_stream_construction.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_construction.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tests__byte_stream_many_writes.cc
+
+build CMakeFiles/tidy_quiet_tests__byte_stream_many_writes.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tests__byte_stream_many_writes.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_many_writes.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tests__byte_stream_many_writes.cc
+
+build CMakeFiles/tidy_tests__byte_stream_many_writes.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tests__byte_stream_many_writes.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_many_writes.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tests__byte_stream_one_write.cc
+
+build CMakeFiles/tidy_quiet_tests__byte_stream_one_write.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tests__byte_stream_one_write.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_one_write.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tests__byte_stream_one_write.cc
+
+build CMakeFiles/tidy_tests__byte_stream_one_write.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tests__byte_stream_one_write.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_one_write.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tests__byte_stream_test_harness.cc
+
+build CMakeFiles/tidy_quiet_tests__byte_stream_test_harness.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tests__byte_stream_test_harness.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_test_harness.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tests__byte_stream_test_harness.cc
+
+build CMakeFiles/tidy_tests__byte_stream_test_harness.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tests__byte_stream_test_harness.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_test_harness.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tests__byte_stream_two_writes.cc
+
+build CMakeFiles/tidy_quiet_tests__byte_stream_two_writes.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tests__byte_stream_two_writes.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_two_writes.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tests__byte_stream_two_writes.cc
+
+build CMakeFiles/tidy_tests__byte_stream_two_writes.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tests__byte_stream_two_writes.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_two_writes.cc
+
+
+#############################################
+# Phony custom command for CMakeFiles/tidy
+
+build CMakeFiles/tidy | ${cmake_ninja_workdir}CMakeFiles/tidy: phony || tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
+
+
+#############################################
+# Phony custom command for CMakeFiles/tidy_verbose
+
+build CMakeFiles/tidy_verbose | ${cmake_ninja_workdir}CMakeFiles/tidy_verbose: phony || tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
+
+
+#############################################
+# Custom command for CMakeFiles/check_webget
+
+build CMakeFiles/check_webget | ${cmake_ninja_workdir}CMakeFiles/check_webget: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R 't_webget'
+  DESC = Testing webget...
+
+
+#############################################
+# Custom command for CMakeFiles/check_lab0
+
+build CMakeFiles/check_lab0 | ${cmake_ninja_workdir}CMakeFiles/check_lab0: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R 't_webget|t_byte_stream|_dt'
+  DESC = Testing Lab 0...
+
+
+#############################################
+# Custom command for CMakeFiles/check_lab1
+
+build CMakeFiles/check_lab1 | ${cmake_ninja_workdir}CMakeFiles/check_lab1: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R 't_strm_reassem_|t_byte_stream|_dt'
+  DESC = Testing the stream reassembler...
+
+
+#############################################
+# Custom command for CMakeFiles/check_lab2
+
+build CMakeFiles/check_lab2 | ${cmake_ninja_workdir}CMakeFiles/check_lab2: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R 't_recv_|t_wrapping_|t_strm_reassem_|t_byte_stream|_dt'
+  DESC = Testing the TCP receiver...
+
+
+#############################################
+# Custom command for CMakeFiles/check_lab3
+
+build CMakeFiles/check_lab3 | ${cmake_ninja_workdir}CMakeFiles/check_lab3: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R 't_send_|t_recv_|t_wrapping_|t_strm_reassem_|t_byte_stream|_dt'
+  DESC = Testing the TCP sender...
+
+
+#############################################
+# Custom command for CMakeFiles/check_lab4
+
+build CMakeFiles/check_lab4 | ${cmake_ninja_workdir}CMakeFiles/check_lab4: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Users/cl/Code/C/sponge-cl/tun.sh check 144 145 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R ^t_
+  DESC = Testing the TCP connection...
+
+
+#############################################
+# Custom command for CMakeFiles/check_lab5
+
+build CMakeFiles/check_lab5 | ${cmake_ninja_workdir}CMakeFiles/check_lab5: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Users/cl/Code/C/sponge-cl/tap.sh check 10 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R '^t_webget|^arp_'
+  DESC = Testing Lab 5...
+
+
+#############################################
+# Custom command for CMakeFiles/check_lab6
+
+build CMakeFiles/check_lab6 | ${cmake_ninja_workdir}CMakeFiles/check_lab6: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R '^arp_|^router_'
+  DESC = Testing Lab 6...
+
+
+#############################################
+# Custom command for CMakeFiles/check
+
+build CMakeFiles/check | ${cmake_ninja_workdir}CMakeFiles/check: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && /Users/cl/Code/C/sponge-cl/tun.sh check 144 145 && /Users/cl/Code/C/sponge-cl/tap.sh check 10 && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --output-on-failure --timeout 10 -R '^t_|^arp_|^router_'
+  DESC = Testing libsponge...
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/cl/Code/C/sponge-cl/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target sponge
+
+
+#############################################
+# Order-only phony target for sponge
+
+build cmake_object_order_depends_target_sponge: phony || libsponge/CMakeFiles/sponge.dir
+
+build libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/byte_stream.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/address.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/address.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/address.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/buffer.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/eventloop.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/file_descriptor.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/parser.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/parser.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/parser.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/socket.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/socket.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/socket.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/tun.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/tun.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/tun.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+build libsponge/CMakeFiles/sponge.dir/util/util.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/util.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/util.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_PDB = libsponge/libsponge.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target sponge
+
+
+#############################################
+# Link the static library libsponge/libsponge.a
+
+build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LANGUAGE_COMPILE_FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = libsponge/CMakeFiles/sponge.dir/sponge.pdb
+  TARGET_FILE = libsponge/libsponge.a
+  TARGET_PDB = libsponge/libsponge.pdb
+
+
+#############################################
+# Utility command for test
+
+build libsponge/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/libsponge && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build libsponge/test: phony libsponge/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build libsponge/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/libsponge && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build libsponge/edit_cache: phony libsponge/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build libsponge/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/libsponge && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/cl/Code/C/sponge-cl -B/Users/cl/Code/C/sponge-cl/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build libsponge/rebuild_cache: phony libsponge/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/cl/Code/C/sponge-cl/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target webget
+
+
+#############################################
+# Order-only phony target for webget
+
+build cmake_object_order_depends_target_webget: phony || cmake_object_order_depends_target_sponge
+
+build apps/CMakeFiles/webget.dir/webget.cc.o: CXX_COMPILER__webget_Debug /Users/cl/Code/C/sponge-cl/apps/webget.cc || cmake_object_order_depends_target_webget
+  DEP_FILE = apps/CMakeFiles/webget.dir/webget.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = apps/CMakeFiles/webget.dir
+  OBJECT_FILE_DIR = apps/CMakeFiles/webget.dir
+  TARGET_COMPILE_PDB = apps/CMakeFiles/webget.dir/
+  TARGET_PDB = apps/webget.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target webget
+
+
+#############################################
+# Link the executable apps/webget
+
+build apps/webget: CXX_EXECUTABLE_LINKER__webget_Debug apps/CMakeFiles/webget.dir/webget.cc.o | libsponge/libsponge.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd || libsponge/libsponge.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = libsponge/libsponge.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd
+  OBJECT_DIR = apps/CMakeFiles/webget.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = apps/CMakeFiles/webget.dir/
+  TARGET_FILE = apps/webget
+  TARGET_PDB = apps/webget.pdb
+
+
+#############################################
+# Utility command for test
+
+build apps/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build apps/test: phony apps/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build apps/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build apps/edit_cache: phony apps/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build apps/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/cl/Code/C/sponge-cl -B/Users/cl/Code/C/sponge-cl/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build apps/rebuild_cache: phony apps/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/cl/Code/C/sponge-cl/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target spongechecks
+
+
+#############################################
+# Order-only phony target for spongechecks
+
+build cmake_object_order_depends_target_spongechecks: phony || tests/CMakeFiles/spongechecks.dir
+
+build tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: CXX_COMPILER__spongechecks_Debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_test_harness.cc || cmake_object_order_depends_target_spongechecks
+  DEP_FILE = tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/spongechecks.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/spongechecks.dir
+  TARGET_COMPILE_PDB = tests/CMakeFiles/spongechecks.dir/spongechecks.pdb
+  TARGET_PDB = tests/libspongechecks.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target spongechecks
+
+
+#############################################
+# Link the static library tests/libspongechecks.a
+
+build tests/libspongechecks.a: CXX_STATIC_LIBRARY_LINKER__spongechecks_Debug tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LANGUAGE_COMPILE_FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og
+  OBJECT_DIR = tests/CMakeFiles/spongechecks.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = tests/CMakeFiles/spongechecks.dir/spongechecks.pdb
+  TARGET_FILE = tests/libspongechecks.a
+  TARGET_PDB = tests/libspongechecks.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target byte_stream_construction
+
+
+#############################################
+# Order-only phony target for byte_stream_construction
+
+build cmake_object_order_depends_target_byte_stream_construction: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: CXX_COMPILER__byte_stream_construction_Debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_construction.cc || cmake_object_order_depends_target_byte_stream_construction
+  DEP_FILE = tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_construction.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/byte_stream_construction.dir
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_construction.dir/
+  TARGET_PDB = tests/byte_stream_construction.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target byte_stream_construction
+
+
+#############################################
+# Link the executable tests/byte_stream_construction
+
+build tests/byte_stream_construction: CXX_EXECUTABLE_LINKER__byte_stream_construction_Debug tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_construction.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_construction.dir/
+  TARGET_FILE = tests/byte_stream_construction
+  TARGET_PDB = tests/byte_stream_construction.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target byte_stream_one_write
+
+
+#############################################
+# Order-only phony target for byte_stream_one_write
+
+build cmake_object_order_depends_target_byte_stream_one_write: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o: CXX_COMPILER__byte_stream_one_write_Debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_one_write.cc || cmake_object_order_depends_target_byte_stream_one_write
+  DEP_FILE = tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_one_write.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/byte_stream_one_write.dir
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_one_write.dir/
+  TARGET_PDB = tests/byte_stream_one_write.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target byte_stream_one_write
+
+
+#############################################
+# Link the executable tests/byte_stream_one_write
+
+build tests/byte_stream_one_write: CXX_EXECUTABLE_LINKER__byte_stream_one_write_Debug tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_one_write.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_one_write.dir/
+  TARGET_FILE = tests/byte_stream_one_write
+  TARGET_PDB = tests/byte_stream_one_write.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target byte_stream_two_writes
+
+
+#############################################
+# Order-only phony target for byte_stream_two_writes
+
+build cmake_object_order_depends_target_byte_stream_two_writes: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: CXX_COMPILER__byte_stream_two_writes_Debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_two_writes.cc || cmake_object_order_depends_target_byte_stream_two_writes
+  DEP_FILE = tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_two_writes.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/byte_stream_two_writes.dir
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_two_writes.dir/
+  TARGET_PDB = tests/byte_stream_two_writes.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target byte_stream_two_writes
+
+
+#############################################
+# Link the executable tests/byte_stream_two_writes
+
+build tests/byte_stream_two_writes: CXX_EXECUTABLE_LINKER__byte_stream_two_writes_Debug tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_two_writes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_two_writes.dir/
+  TARGET_FILE = tests/byte_stream_two_writes
+  TARGET_PDB = tests/byte_stream_two_writes.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target byte_stream_capacity
+
+
+#############################################
+# Order-only phony target for byte_stream_capacity
+
+build cmake_object_order_depends_target_byte_stream_capacity: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o: CXX_COMPILER__byte_stream_capacity_Debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_capacity.cc || cmake_object_order_depends_target_byte_stream_capacity
+  DEP_FILE = tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_capacity.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/byte_stream_capacity.dir
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_capacity.dir/
+  TARGET_PDB = tests/byte_stream_capacity.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target byte_stream_capacity
+
+
+#############################################
+# Link the executable tests/byte_stream_capacity
+
+build tests/byte_stream_capacity: CXX_EXECUTABLE_LINKER__byte_stream_capacity_Debug tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_capacity.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_capacity.dir/
+  TARGET_FILE = tests/byte_stream_capacity
+  TARGET_PDB = tests/byte_stream_capacity.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target byte_stream_many_writes
+
+
+#############################################
+# Order-only phony target for byte_stream_many_writes
+
+build cmake_object_order_depends_target_byte_stream_many_writes: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o: CXX_COMPILER__byte_stream_many_writes_Debug /Users/cl/Code/C/sponge-cl/tests/byte_stream_many_writes.cc || cmake_object_order_depends_target_byte_stream_many_writes
+  DEP_FILE = tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_many_writes.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/byte_stream_many_writes.dir
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_many_writes.dir/
+  TARGET_PDB = tests/byte_stream_many_writes.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target byte_stream_many_writes
+
+
+#############################################
+# Link the executable tests/byte_stream_many_writes
+
+build tests/byte_stream_many_writes: CXX_EXECUTABLE_LINKER__byte_stream_many_writes_Debug tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/byte_stream_many_writes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = tests/CMakeFiles/byte_stream_many_writes.dir/
+  TARGET_FILE = tests/byte_stream_many_writes
+  TARGET_PDB = tests/byte_stream_many_writes.pdb
+
+
+#############################################
+# Utility command for test
+
+build tests/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build tests/test: phony tests/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build tests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build tests/edit_cache: phony tests/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build tests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/cl/Code/C/sponge-cl -B/Users/cl/Code/C/sponge-cl/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build tests/rebuild_cache: phony tests/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/cl/Code/C/sponge-cl/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target address_dt
+
+
+#############################################
+# Order-only phony target for address_dt
+
+build cmake_object_order_depends_target_address_dt: phony || cmake_object_order_depends_target_sponge
+
+build doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: CXX_COMPILER__address_dt_Debug /Users/cl/Code/C/sponge-cl/doctests/address_dt.cc || cmake_object_order_depends_target_address_dt
+  DEP_FILE = doctests/CMakeFiles/address_dt.dir/address_dt.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = doctests/CMakeFiles/address_dt.dir
+  OBJECT_FILE_DIR = doctests/CMakeFiles/address_dt.dir
+  TARGET_COMPILE_PDB = doctests/CMakeFiles/address_dt.dir/
+  TARGET_PDB = doctests/address_dt.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target address_dt
+
+
+#############################################
+# Link the executable doctests/address_dt
+
+build doctests/address_dt: CXX_EXECUTABLE_LINKER__address_dt_Debug doctests/CMakeFiles/address_dt.dir/address_dt.cc.o | libsponge/libsponge.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd || libsponge/libsponge.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = libsponge/libsponge.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd
+  OBJECT_DIR = doctests/CMakeFiles/address_dt.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = doctests/CMakeFiles/address_dt.dir/
+  TARGET_FILE = doctests/address_dt
+  TARGET_PDB = doctests/address_dt.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parser_dt
+
+
+#############################################
+# Order-only phony target for parser_dt
+
+build cmake_object_order_depends_target_parser_dt: phony || cmake_object_order_depends_target_sponge
+
+build doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o: CXX_COMPILER__parser_dt_Debug /Users/cl/Code/C/sponge-cl/doctests/parser_dt.cc || cmake_object_order_depends_target_parser_dt
+  DEP_FILE = doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = doctests/CMakeFiles/parser_dt.dir
+  OBJECT_FILE_DIR = doctests/CMakeFiles/parser_dt.dir
+  TARGET_COMPILE_PDB = doctests/CMakeFiles/parser_dt.dir/
+  TARGET_PDB = doctests/parser_dt.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parser_dt
+
+
+#############################################
+# Link the executable doctests/parser_dt
+
+build doctests/parser_dt: CXX_EXECUTABLE_LINKER__parser_dt_Debug doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o | libsponge/libsponge.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd || libsponge/libsponge.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = libsponge/libsponge.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd
+  OBJECT_DIR = doctests/CMakeFiles/parser_dt.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = doctests/CMakeFiles/parser_dt.dir/
+  TARGET_FILE = doctests/parser_dt
+  TARGET_PDB = doctests/parser_dt.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target socket_dt
+
+
+#############################################
+# Order-only phony target for socket_dt
+
+build cmake_object_order_depends_target_socket_dt: phony || cmake_object_order_depends_target_sponge
+
+build doctests/CMakeFiles/socket_dt.dir/socket_dt.cc.o: CXX_COMPILER__socket_dt_Debug /Users/cl/Code/C/sponge-cl/doctests/socket_dt.cc || cmake_object_order_depends_target_socket_dt
+  DEP_FILE = doctests/CMakeFiles/socket_dt.dir/socket_dt.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = doctests/CMakeFiles/socket_dt.dir
+  OBJECT_FILE_DIR = doctests/CMakeFiles/socket_dt.dir
+  TARGET_COMPILE_PDB = doctests/CMakeFiles/socket_dt.dir/
+  TARGET_PDB = doctests/socket_dt.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target socket_dt
+
+
+#############################################
+# Link the executable doctests/socket_dt
+
+build doctests/socket_dt: CXX_EXECUTABLE_LINKER__socket_dt_Debug doctests/CMakeFiles/socket_dt.dir/socket_dt.cc.o | libsponge/libsponge.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd || libsponge/libsponge.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = libsponge/libsponge.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd
+  OBJECT_DIR = doctests/CMakeFiles/socket_dt.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = doctests/CMakeFiles/socket_dt.dir/
+  TARGET_FILE = doctests/socket_dt
+  TARGET_PDB = doctests/socket_dt.pdb
+
+
+#############################################
+# Utility command for test
+
+build doctests/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/doctests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build doctests/test: phony doctests/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build doctests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/doctests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build doctests/edit_cache: phony doctests/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build doctests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug/doctests && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/cl/Code/C/sponge-cl -B/Users/cl/Code/C/sponge-cl/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build doctests/rebuild_cache: phony doctests/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build address_dt: phony doctests/address_dt
+
+build byte_stream_capacity: phony tests/byte_stream_capacity
+
+build byte_stream_construction: phony tests/byte_stream_construction
+
+build byte_stream_many_writes: phony tests/byte_stream_many_writes
+
+build byte_stream_one_write: phony tests/byte_stream_one_write
+
+build byte_stream_two_writes: phony tests/byte_stream_two_writes
+
+build libsponge.a: phony libsponge/libsponge.a
+
+build libspongechecks.a: phony tests/libspongechecks.a
+
+build parser_dt: phony doctests/parser_dt
+
+build socket_dt: phony doctests/socket_dt
+
+build sponge: phony libsponge/libsponge.a
+
+build spongechecks: phony tests/libspongechecks.a
+
+build webget: phony apps/webget
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug
+
+build all: phony libsponge/all apps/all tests/all doctests/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps
+
+build apps/all: phony apps/webget
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug/doctests
+
+build doctests/all: phony doctests/address_dt doctests/parser_dt doctests/socket_dt
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug/libsponge
+
+build libsponge/all: phony libsponge/libsponge.a
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests
+
+build tests/all: phony tests/libspongechecks.a tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/cl/Code/C/sponge-cl/CMakeLists.txt /Users/cl/Code/C/sponge-cl/apps/CMakeLists.txt /Users/cl/Code/C/sponge-cl/doctests/CMakeLists.txt /Users/cl/Code/C/sponge-cl/etc/Doxyfile.in /Users/cl/Code/C/sponge-cl/etc/build_defs.cmake /Users/cl/Code/C/sponge-cl/etc/build_type.cmake /Users/cl/Code/C/sponge-cl/etc/cflags.cmake /Users/cl/Code/C/sponge-cl/etc/clang_format.cmake /Users/cl/Code/C/sponge-cl/etc/clang_tidy.cmake /Users/cl/Code/C/sponge-cl/etc/cppcheck.cmake /Users/cl/Code/C/sponge-cl/etc/doxygen.cmake /Users/cl/Code/C/sponge-cl/etc/tests.cmake /Users/cl/Code/C/sponge-cl/libsponge/CMakeLists.txt /Users/cl/Code/C/sponge-cl/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/cl/Code/C/sponge-cl/CMakeLists.txt /Users/cl/Code/C/sponge-cl/apps/CMakeLists.txt /Users/cl/Code/C/sponge-cl/doctests/CMakeLists.txt /Users/cl/Code/C/sponge-cl/etc/Doxyfile.in /Users/cl/Code/C/sponge-cl/etc/build_defs.cmake /Users/cl/Code/C/sponge-cl/etc/build_type.cmake /Users/cl/Code/C/sponge-cl/etc/cflags.cmake /Users/cl/Code/C/sponge-cl/etc/clang_format.cmake /Users/cl/Code/C/sponge-cl/etc/clang_tidy.cmake /Users/cl/Code/C/sponge-cl/etc/cppcheck.cmake /Users/cl/Code/C/sponge-cl/etc/doxygen.cmake /Users/cl/Code/C/sponge-cl/etc/tests.cmake /Users/cl/Code/C/sponge-cl/libsponge/CMakeLists.txt /Users/cl/Code/C/sponge-cl/tests/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

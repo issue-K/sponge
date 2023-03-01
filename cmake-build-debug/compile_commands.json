@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/byte_stream.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/byte_stream.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/address.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/address.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/address.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/buffer.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/buffer.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/eventloop.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/eventloop.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/file_descriptor.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/file_descriptor.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/parser.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/parser.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/socket.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/socket.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/tun.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/tun.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o libsponge/CMakeFiles/sponge.dir/util/util.cc.o -c /Users/cl/Code/C/sponge-cl/libsponge/util/util.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/libsponge/util/util.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o apps/CMakeFiles/webget.dir/webget.cc.o -c /Users/cl/Code/C/sponge-cl/apps/webget.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/apps/webget.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -c /Users/cl/Code/C/sponge-cl/tests/byte_stream_test_harness.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/tests/byte_stream_test_harness.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o -c /Users/cl/Code/C/sponge-cl/tests/byte_stream_construction.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/tests/byte_stream_construction.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o -c /Users/cl/Code/C/sponge-cl/tests/byte_stream_one_write.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/tests/byte_stream_one_write.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -c /Users/cl/Code/C/sponge-cl/tests/byte_stream_two_writes.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/tests/byte_stream_two_writes.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -c /Users/cl/Code/C/sponge-cl/tests/byte_stream_capacity.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/tests/byte_stream_capacity.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o -c /Users/cl/Code/C/sponge-cl/tests/byte_stream_many_writes.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/tests/byte_stream_many_writes.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o doctests/CMakeFiles/address_dt.dir/address_dt.cc.o -c /Users/cl/Code/C/sponge-cl/doctests/address_dt.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/doctests/address_dt.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o -c /Users/cl/Code/C/sponge-cl/doctests/parser_dt.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/doctests/parser_dt.cc"
+},
+{
+  "directory": "/Users/cl/Code/C/sponge-cl/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17 -o doctests/CMakeFiles/socket_dt.dir/socket_dt.cc.o -c /Users/cl/Code/C/sponge-cl/doctests/socket_dt.cc",
+  "file": "/Users/cl/Code/C/sponge-cl/doctests/socket_dt.cc"
+}
+]
