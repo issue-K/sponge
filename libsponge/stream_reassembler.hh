@@ -5,15 +5,26 @@
 
 #include <cstdint>
 #include <string>
+#include <vector>
 
 //! \brief A class that assembles a series of excerpts from a byte stream (possibly out of order,
 //! possibly overlapping) into an in-order byte stream.
 class StreamReassembler {
   private:
     // Your code here -- add private members as necessary.
+    size_t nxt_index_{0};
+    // 下一个接收的字节, 放在vec_的哪一个位置上
+    size_t vec_index_{0};
+    size_t unassembled_bytes_{0};
+    bool eof_{false};
+    // stream reassembler的缓冲区
+    std::vector<char> vec_;
+    // 对应位置上是否拥有字符
+    std::vector<bool> has_;
 
     ByteStream _output;  //!< The reassembled in-order byte stream
     size_t _capacity;    //!< The maximum number of bytes
+    void push_byteStream();
 
   public:
     //! \brief Construct a `StreamReassembler` that will store up to `capacity` bytes.
@@ -41,6 +52,7 @@ class StreamReassembler {
     //!
     //! \note If the byte at a particular index has been pushed more than once, it
     //! should only be counted once for the purpose of this function.
+    // 存储但尚未重组的子串中的字节数
     size_t unassembled_bytes() const;
 
     //! \brief Is the internal state empty (other than the output stream)?
