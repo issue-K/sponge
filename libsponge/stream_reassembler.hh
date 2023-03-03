@@ -12,18 +12,22 @@
 class StreamReassembler {
   private:
     // Your code here -- add private members as necessary.
-    size_t nxt_index_{0};
     // 下一个接收的字节, 放在vec_的哪一个位置上
-    size_t vec_index_{0};
-    size_t unassembled_bytes_{0};
+    uint64_t vec_index_{0};
+    uint64_t unassembled_bytes_{0};
     bool eof_{false};
     // stream reassembler的缓冲区
     std::vector<char> vec_;
     // 对应位置上是否拥有字符
     std::vector<bool> has_;
+    // 在ByteStream中的都是unread, 在StreamReassembler中的都是unassembled_
+    // uint64_t first_unread_;
+    uint64_t first_unassembled_;
 
     ByteStream _output;  //!< The reassembled in-order byte stream
     size_t _capacity;    //!< The maximum number of bytes
+    bool syn_;
+    bool fin_;
     void push_byteStream();
 
   public:
@@ -58,6 +62,13 @@ class StreamReassembler {
     //! \brief Is the internal state empty (other than the output stream)?
     //! \returns `true` if no substrings are waiting to be assembled
     bool empty() const;
+
+    // My help function
+    void syn();
+    void fin();
+    uint64_t GetFirstUnread() const { return first_unassembled_ - _output.buffer_size(); }
+    uint64_t GetFirstUnassembled() const { return first_unassembled_; }
+    uint64_t GetFirstUnacceptable() const { return GetFirstUnread() + _capacity; }
 };
 
 #endif  // SPONGE_LIBSPONGE_STREAM_REASSEMBLER_HH

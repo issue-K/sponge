@@ -12,6 +12,45 @@
 using namespace std;
 
 int main() {
+    auto rd1 = get_random_generator();
+    {
+        uint32_t isn = uniform_int_distribution<uint32_t>{0, UINT32_MAX}(rd1);
+        TCPReceiverTestHarness test{4000};
+        test.execute(ExpectState{TCPReceiverStateSummary::LISTEN});
+        test.execute(SegmentArrives{}.with_syn().with_seqno(isn).with_result(SegmentArrives::Result::OK));
+        test.execute(ExpectState{TCPReceiverStateSummary::SYN_RECV});
+        test.execute(SegmentArrives{}
+                         .with_fin()
+                         .with_data("oodbye, CS144!")
+                         .with_seqno(isn + 2)
+                         .with_result(SegmentArrives::Result::OK));
+        test.execute(ExpectState{TCPReceiverStateSummary::SYN_RECV});
+        test.execute(ExpectBytes{""});
+        test.execute(ExpectAckno{WrappingInt32{isn + 1}});
+        test.execute(ExpectInputNotEnded{});
+        test.execute(SegmentArrives{}.with_data("G").with_seqno(isn + 1).with_result(SegmentArrives::Result::OK));
+        test.execute(ExpectState{TCPReceiverStateSummary::FIN_RECV});
+        test.execute(ExpectBytes{"Goodbye, CS144!"});
+        test.execute(ExpectAckno{WrappingInt32{isn + 17}});
+        test.execute(ExpectEof{});
+    }
+    {
+        uint32_t isn = 12906059;
+        TCPReceiverTestHarness test{4000};
+        test.execute(ExpectState{TCPReceiverStateSummary::LISTEN});
+        test.execute(SegmentArrives{}
+                         .with_syn()
+                         .with_seqno(isn)
+                         .with_data("Hello and goodbye, CS144!")
+                         .with_fin()
+                         .with_result(SegmentArrives::Result::OK));
+        test.execute(ExpectState{TCPReceiverStateSummary::FIN_RECV});
+        test.execute(ExpectAckno{WrappingInt32{isn + 27}});
+        test.execute(ExpectUnassembledBytes{0});
+        test.execute(ExpectBytes{"Hello and goodbye, CS144!"});
+        test.execute(ExpectEof{});
+    }
+    return 0;
     try {
         auto rd = get_random_generator();
 

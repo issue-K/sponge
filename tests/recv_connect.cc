@@ -26,7 +26,6 @@ int main() {
             test.execute(ExpectUnassembledBytes{0});
             test.execute(ExpectTotalAssembledBytes{0});
         }
-
         {
             TCPReceiverTestHarness test{5435};
             test.execute(ExpectAckno{std::optional<WrappingInt32>{}});
@@ -37,7 +36,6 @@ int main() {
             test.execute(ExpectUnassembledBytes{0});
             test.execute(ExpectTotalAssembledBytes{0});
         }
-
         {
             TCPReceiverTestHarness test{5435};
             test.execute(ExpectAckno{std::optional<WrappingInt32>{}});
@@ -48,7 +46,6 @@ int main() {
             test.execute(ExpectUnassembledBytes{0});
             test.execute(ExpectTotalAssembledBytes{0});
         }
-
         {
             TCPReceiverTestHarness test{5435};
             test.execute(ExpectAckno{std::optional<WrappingInt32>{}});
@@ -60,7 +57,6 @@ int main() {
             test.execute(ExpectUnassembledBytes{0});
             test.execute(ExpectTotalAssembledBytes{0});
         }
-
         {
             TCPReceiverTestHarness test{5435};
             test.execute(ExpectAckno{std::optional<WrappingInt32>{}});

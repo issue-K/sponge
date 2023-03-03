@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tests/fsm_stream_reassembler_many"
+			"path" : "tests/byte_stream_construction"
 		}
 	],
 	"backtrace" : 2,
@@ -28,7 +28,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 13,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -125,7 +125,7 @@
 			"id" : "spongechecks::@a44f0ac069e85531cdee"
 		}
 	],
-	"id" : "fsm_stream_reassembler_many::@a44f0ac069e85531cdee",
+	"id" : "byte_stream_construction::@a44f0ac069e85531cdee",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -151,8 +151,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "fsm_stream_reassembler_many",
-	"nameOnDisk" : "fsm_stream_reassembler_many",
+	"name" : "byte_stream_construction",
+	"nameOnDisk" : "byte_stream_construction",
 	"paths" : 
 	{
 		"build" : "tests",
@@ -173,7 +173,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "tests/fsm_stream_reassembler_many.cc",
+			"path" : "tests/byte_stream_construction.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

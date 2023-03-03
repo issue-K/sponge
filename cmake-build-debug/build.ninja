@@ -207,6 +207,54 @@ build tidy_libsponge__stream_reassembler.cc: phony CMakeFiles/tidy_libsponge__st
 
 
 #############################################
+# Utility command for tidy_quiet_tcp_helpers__tcp_header.cc
+
+build tidy_quiet_tcp_helpers__tcp_header.cc: phony CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc
+
+
+#############################################
+# Utility command for tidy_tcp_helpers__tcp_header.cc
+
+build tidy_tcp_helpers__tcp_header.cc: phony CMakeFiles/tidy_tcp_helpers__tcp_header.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tcp_helpers__tcp_segment.cc
+
+build tidy_quiet_tcp_helpers__tcp_segment.cc: phony CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc
+
+
+#############################################
+# Utility command for tidy_tcp_helpers__tcp_segment.cc
+
+build tidy_tcp_helpers__tcp_segment.cc: phony CMakeFiles/tidy_tcp_helpers__tcp_segment.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tcp_helpers__tcp_state.cc
+
+build tidy_quiet_tcp_helpers__tcp_state.cc: phony CMakeFiles/tidy_quiet_tcp_helpers__tcp_state.cc
+
+
+#############################################
+# Utility command for tidy_tcp_helpers__tcp_state.cc
+
+build tidy_tcp_helpers__tcp_state.cc: phony CMakeFiles/tidy_tcp_helpers__tcp_state.cc
+
+
+#############################################
+# Utility command for tidy_quiet_libsponge__tcp_receiver.cc
+
+build tidy_quiet_libsponge__tcp_receiver.cc: phony CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc
+
+
+#############################################
+# Utility command for tidy_libsponge__tcp_receiver.cc
+
+build tidy_libsponge__tcp_receiver.cc: phony CMakeFiles/tidy_libsponge__tcp_receiver.cc
+
+
+#############################################
 # Utility command for tidy_quiet_util__address.cc
 
 build tidy_quiet_util__address.cc: phony CMakeFiles/tidy_quiet_util__address.cc
@@ -300,6 +348,18 @@ build tidy_quiet_util__util.cc: phony CMakeFiles/tidy_quiet_util__util.cc
 # Utility command for tidy_util__util.cc
 
 build tidy_util__util.cc: phony CMakeFiles/tidy_util__util.cc
+
+
+#############################################
+# Utility command for tidy_quiet_libsponge__wrapping_integers.cc
+
+build tidy_quiet_libsponge__wrapping_integers.cc: phony CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc
+
+
+#############################################
+# Utility command for tidy_libsponge__wrapping_integers.cc
+
+build tidy_libsponge__wrapping_integers.cc: phony CMakeFiles/tidy_libsponge__wrapping_integers.cc
 
 
 #############################################
@@ -953,13 +1013,13 @@ build tidy_tests__wrapping_integers_wrap.cc: phony CMakeFiles/tidy_tests__wrappi
 #############################################
 # Utility command for tidy
 
-build tidy: phony CMakeFiles/tidy tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
+build tidy: phony CMakeFiles/tidy tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_libsponge__tcp_receiver.cc tidy_quiet_libsponge__wrapping_integers.cc tidy_quiet_tcp_helpers__tcp_header.cc tidy_quiet_tcp_helpers__tcp_segment.cc tidy_quiet_tcp_helpers__tcp_state.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
 
 
 #############################################
 # Utility command for tidy_verbose
 
-build tidy_verbose: phony CMakeFiles/tidy_verbose tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__stream_reassembler.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
+build tidy_verbose: phony CMakeFiles/tidy_verbose tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__stream_reassembler.cc tidy_libsponge__tcp_receiver.cc tidy_libsponge__wrapping_integers.cc tidy_tcp_helpers__tcp_header.cc tidy_tcp_helpers__tcp_segment.cc tidy_tcp_helpers__tcp_state.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
 
 
 #############################################
@@ -1249,6 +1309,62 @@ build CMakeFiles/tidy_libsponge__stream_reassembler.cc | ${cmake_ninja_workdir}C
 
 
 #############################################
+# Custom command for CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc
+
+build CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_header.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tcp_helpers__tcp_header.cc
+
+build CMakeFiles/tidy_tcp_helpers__tcp_header.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tcp_helpers__tcp_header.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_header.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc
+
+build CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_segment.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tcp_helpers__tcp_segment.cc
+
+build CMakeFiles/tidy_tcp_helpers__tcp_segment.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tcp_helpers__tcp_segment.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_segment.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tcp_helpers__tcp_state.cc
+
+build CMakeFiles/tidy_quiet_tcp_helpers__tcp_state.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tcp_helpers__tcp_state.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_state.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tcp_helpers__tcp_state.cc
+
+build CMakeFiles/tidy_tcp_helpers__tcp_state.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tcp_helpers__tcp_state.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_state.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc
+
+build CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_receiver.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_libsponge__tcp_receiver.cc
+
+build CMakeFiles/tidy_libsponge__tcp_receiver.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_libsponge__tcp_receiver.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_receiver.cc
+
+
+#############################################
 # Custom command for CMakeFiles/tidy_quiet_util__address.cc
 
 build CMakeFiles/tidy_quiet_util__address.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_util__address.cc: CUSTOM_COMMAND
@@ -1358,6 +1474,20 @@ build CMakeFiles/tidy_quiet_util__util.cc | ${cmake_ninja_workdir}CMakeFiles/tid
 
 build CMakeFiles/tidy_util__util.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_util__util.cc: CUSTOM_COMMAND
   COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/util/util.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc
+
+build CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/wrapping_integers.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_libsponge__wrapping_integers.cc
+
+build CMakeFiles/tidy_libsponge__wrapping_integers.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_libsponge__wrapping_integers.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/wrapping_integers.cc
 
 
 #############################################
@@ -2119,13 +2249,13 @@ build CMakeFiles/tidy_tests__wrapping_integers_wrap.cc | ${cmake_ninja_workdir}C
 #############################################
 # Phony custom command for CMakeFiles/tidy
 
-build CMakeFiles/tidy | ${cmake_ninja_workdir}CMakeFiles/tidy: phony || tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
+build CMakeFiles/tidy | ${cmake_ninja_workdir}CMakeFiles/tidy: phony || tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_libsponge__tcp_receiver.cc tidy_quiet_libsponge__wrapping_integers.cc tidy_quiet_tcp_helpers__tcp_header.cc tidy_quiet_tcp_helpers__tcp_segment.cc tidy_quiet_tcp_helpers__tcp_state.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
 
 
 #############################################
 # Phony custom command for CMakeFiles/tidy_verbose
 
-build CMakeFiles/tidy_verbose | ${cmake_ninja_workdir}CMakeFiles/tidy_verbose: phony || tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__stream_reassembler.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
+build CMakeFiles/tidy_verbose | ${cmake_ninja_workdir}CMakeFiles/tidy_verbose: phony || tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__stream_reassembler.cc tidy_libsponge__tcp_receiver.cc tidy_libsponge__wrapping_integers.cc tidy_tcp_helpers__tcp_header.cc tidy_tcp_helpers__tcp_segment.cc tidy_tcp_helpers__tcp_state.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
 
 
 #############################################
@@ -2227,6 +2357,34 @@ build libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o: CXX_COMPILER__spo
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
   OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
 
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_header.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_segment.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/tcp_state.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_receiver.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+
 build libsponge/CMakeFiles/sponge.dir/util/address.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/util/address.cc || cmake_object_order_depends_target_sponge
   DEP_FILE = libsponge/CMakeFiles/sponge.dir/util/address.cc.o.d
   FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
@@ -2283,6 +2441,13 @@ build libsponge/CMakeFiles/sponge.dir/util/util.cc.o: CXX_COMPILER__sponge_Debug
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
   OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/util
 
+build libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/wrapping_integers.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target sponge
@@ -2291,7 +2456,7 @@ build libsponge/CMakeFiles/sponge.dir/util/util.cc.o: CXX_COMPILER__sponge_Debug
 #############################################
 # Link the static library libsponge/libsponge.a
 
-build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o
+build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   LANGUAGE_COMPILE_FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
@@ -2445,6 +2610,39 @@ build tests/libspongechecks.a: CXX_STATIC_LIBRARY_LINKER__spongechecks_Debug tes
   PRE_LINK = :
   TARGET_FILE = tests/libspongechecks.a
   TARGET_PDB = spongechecks.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target tcp_parser
+
+
+#############################################
+# Order-only phony target for tcp_parser
+
+build cmake_object_order_depends_target_tcp_parser: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o: CXX_COMPILER__tcp_parser_Debug /Users/cl/Code/C/sponge-cl/tests/tcp_parser.cc || cmake_object_order_depends_target_tcp_parser
+  DEP_FILE = tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/tcp_parser.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/tcp_parser.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tcp_parser
+
+
+#############################################
+# Link the executable tests/tcp_parser
+
+build tests/tcp_parser: CXX_EXECUTABLE_LINKER__tcp_parser_Debug tests/CMakeFiles/tcp_parser.dir/tcp_parser.cc.o | tests/libspongechecks.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpcap.tbd libsponge/libsponge.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpcap.tbd || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpcap.tbd  libsponge/libsponge.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpcap.tbd
+  OBJECT_DIR = tests/CMakeFiles/tcp_parser.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/tcp_parser
+  TARGET_PDB = tcp_parser.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target fsm_stream_reassembler_single
@@ -2875,6 +3073,336 @@ build tests/byte_stream_many_writes: CXX_EXECUTABLE_LINKER__byte_stream_many_wri
   TARGET_FILE = tests/byte_stream_many_writes
   TARGET_PDB = byte_stream_many_writes.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_cmp
+
+
+#############################################
+# Order-only phony target for wrapping_integers_cmp
+
+build cmake_object_order_depends_target_wrapping_integers_cmp: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o: CXX_COMPILER__wrapping_integers_cmp_Debug /Users/cl/Code/C/sponge-cl/tests/wrapping_integers_cmp.cc || cmake_object_order_depends_target_wrapping_integers_cmp
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_cmp.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_cmp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_cmp
+
+
+#############################################
+# Link the executable tests/wrapping_integers_cmp
+
+build tests/wrapping_integers_cmp: CXX_EXECUTABLE_LINKER__wrapping_integers_cmp_Debug tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_cmp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_cmp
+  TARGET_PDB = wrapping_integers_cmp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_unwrap
+
+
+#############################################
+# Order-only phony target for wrapping_integers_unwrap
+
+build cmake_object_order_depends_target_wrapping_integers_unwrap: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o: CXX_COMPILER__wrapping_integers_unwrap_Debug /Users/cl/Code/C/sponge-cl/tests/wrapping_integers_unwrap.cc || cmake_object_order_depends_target_wrapping_integers_unwrap
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_unwrap.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_unwrap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_unwrap
+
+
+#############################################
+# Link the executable tests/wrapping_integers_unwrap
+
+build tests/wrapping_integers_unwrap: CXX_EXECUTABLE_LINKER__wrapping_integers_unwrap_Debug tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_unwrap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_unwrap
+  TARGET_PDB = wrapping_integers_unwrap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_wrap
+
+
+#############################################
+# Order-only phony target for wrapping_integers_wrap
+
+build cmake_object_order_depends_target_wrapping_integers_wrap: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o: CXX_COMPILER__wrapping_integers_wrap_Debug /Users/cl/Code/C/sponge-cl/tests/wrapping_integers_wrap.cc || cmake_object_order_depends_target_wrapping_integers_wrap
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_wrap.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_wrap.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_wrap
+
+
+#############################################
+# Link the executable tests/wrapping_integers_wrap
+
+build tests/wrapping_integers_wrap: CXX_EXECUTABLE_LINKER__wrapping_integers_wrap_Debug tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_wrap.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_wrap
+  TARGET_PDB = wrapping_integers_wrap.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target wrapping_integers_roundtrip
+
+
+#############################################
+# Order-only phony target for wrapping_integers_roundtrip
+
+build cmake_object_order_depends_target_wrapping_integers_roundtrip: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o: CXX_COMPILER__wrapping_integers_roundtrip_Debug /Users/cl/Code/C/sponge-cl/tests/wrapping_integers_roundtrip.cc || cmake_object_order_depends_target_wrapping_integers_roundtrip
+  DEP_FILE = tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_roundtrip.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/wrapping_integers_roundtrip.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target wrapping_integers_roundtrip
+
+
+#############################################
+# Link the executable tests/wrapping_integers_roundtrip
+
+build tests/wrapping_integers_roundtrip: CXX_EXECUTABLE_LINKER__wrapping_integers_roundtrip_Debug tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/wrapping_integers_roundtrip.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/wrapping_integers_roundtrip
+  TARGET_PDB = wrapping_integers_roundtrip.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_connect
+
+
+#############################################
+# Order-only phony target for recv_connect
+
+build cmake_object_order_depends_target_recv_connect: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o: CXX_COMPILER__recv_connect_Debug /Users/cl/Code/C/sponge-cl/tests/recv_connect.cc || cmake_object_order_depends_target_recv_connect
+  DEP_FILE = tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_connect.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_connect.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_connect
+
+
+#############################################
+# Link the executable tests/recv_connect
+
+build tests/recv_connect: CXX_EXECUTABLE_LINKER__recv_connect_Debug tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_connect.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_connect
+  TARGET_PDB = recv_connect.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_transmit
+
+
+#############################################
+# Order-only phony target for recv_transmit
+
+build cmake_object_order_depends_target_recv_transmit: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o: CXX_COMPILER__recv_transmit_Debug /Users/cl/Code/C/sponge-cl/tests/recv_transmit.cc || cmake_object_order_depends_target_recv_transmit
+  DEP_FILE = tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_transmit.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_transmit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_transmit
+
+
+#############################################
+# Link the executable tests/recv_transmit
+
+build tests/recv_transmit: CXX_EXECUTABLE_LINKER__recv_transmit_Debug tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_transmit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_transmit
+  TARGET_PDB = recv_transmit.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_window
+
+
+#############################################
+# Order-only phony target for recv_window
+
+build cmake_object_order_depends_target_recv_window: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_window.dir/recv_window.cc.o: CXX_COMPILER__recv_window_Debug /Users/cl/Code/C/sponge-cl/tests/recv_window.cc || cmake_object_order_depends_target_recv_window
+  DEP_FILE = tests/CMakeFiles/recv_window.dir/recv_window.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_window.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_window.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_window
+
+
+#############################################
+# Link the executable tests/recv_window
+
+build tests/recv_window: CXX_EXECUTABLE_LINKER__recv_window_Debug tests/CMakeFiles/recv_window.dir/recv_window.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_window.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_window
+  TARGET_PDB = recv_window.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_reorder
+
+
+#############################################
+# Order-only phony target for recv_reorder
+
+build cmake_object_order_depends_target_recv_reorder: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o: CXX_COMPILER__recv_reorder_Debug /Users/cl/Code/C/sponge-cl/tests/recv_reorder.cc || cmake_object_order_depends_target_recv_reorder
+  DEP_FILE = tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_reorder.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_reorder.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_reorder
+
+
+#############################################
+# Link the executable tests/recv_reorder
+
+build tests/recv_reorder: CXX_EXECUTABLE_LINKER__recv_reorder_Debug tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_reorder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_reorder
+  TARGET_PDB = recv_reorder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_close
+
+
+#############################################
+# Order-only phony target for recv_close
+
+build cmake_object_order_depends_target_recv_close: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_close.dir/recv_close.cc.o: CXX_COMPILER__recv_close_Debug /Users/cl/Code/C/sponge-cl/tests/recv_close.cc || cmake_object_order_depends_target_recv_close
+  DEP_FILE = tests/CMakeFiles/recv_close.dir/recv_close.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_close.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_close.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_close
+
+
+#############################################
+# Link the executable tests/recv_close
+
+build tests/recv_close: CXX_EXECUTABLE_LINKER__recv_close_Debug tests/CMakeFiles/recv_close.dir/recv_close.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_close.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_close
+  TARGET_PDB = recv_close.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target recv_special
+
+
+#############################################
+# Order-only phony target for recv_special
+
+build cmake_object_order_depends_target_recv_special: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/recv_special.dir/recv_special.cc.o: CXX_COMPILER__recv_special_Debug /Users/cl/Code/C/sponge-cl/tests/recv_special.cc || cmake_object_order_depends_target_recv_special
+  DEP_FILE = tests/CMakeFiles/recv_special.dir/recv_special.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/recv_special.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/recv_special.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target recv_special
+
+
+#############################################
+# Link the executable tests/recv_special
+
+build tests/recv_special: CXX_EXECUTABLE_LINKER__recv_special_Debug tests/CMakeFiles/recv_special.dir/recv_special.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/recv_special.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/recv_special
+  TARGET_PDB = recv_special.dbg
+
 
 #############################################
 # Utility command for test
@@ -3086,13 +3614,35 @@ build libspongechecks.a: phony tests/libspongechecks.a
 
 build parser_dt: phony doctests/parser_dt
 
+build recv_close: phony tests/recv_close
+
+build recv_connect: phony tests/recv_connect
+
+build recv_reorder: phony tests/recv_reorder
+
+build recv_special: phony tests/recv_special
+
+build recv_transmit: phony tests/recv_transmit
+
+build recv_window: phony tests/recv_window
+
 build socket_dt: phony doctests/socket_dt
 
 build sponge: phony libsponge/libsponge.a
 
 build spongechecks: phony tests/libspongechecks.a
 
+build tcp_parser: phony tests/tcp_parser
+
 build webget: phony apps/webget
+
+build wrapping_integers_cmp: phony tests/wrapping_integers_cmp
+
+build wrapping_integers_roundtrip: phony tests/wrapping_integers_roundtrip
+
+build wrapping_integers_unwrap: phony tests/wrapping_integers_unwrap
+
+build wrapping_integers_wrap: phony tests/wrapping_integers_wrap
 
 # =============================================================================
 # Folder targets.
@@ -3130,7 +3680,7 @@ build libsponge/all: phony libsponge/libsponge.a
 #############################################
 # Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests
 
-build tests/all: phony tests/libspongechecks.a tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_stream_reassembler_cap tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes
+build tests/all: phony tests/libspongechecks.a tests/tcp_parser tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_stream_reassembler_cap tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes tests/wrapping_integers_cmp tests/wrapping_integers_unwrap tests/wrapping_integers_wrap tests/wrapping_integers_roundtrip tests/recv_connect tests/recv_transmit tests/recv_window tests/recv_reorder tests/recv_close tests/recv_special
 
 # =============================================================================
 # Unknown Build Time Dependencies.

@@ -41,15 +41,6 @@
 			"id" : "tidy_quiet_apps__webget.cc::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "tidy_quiet_doctests__address_example_3.cc::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "tidy_quiet_doctests__parser_dt.cc::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "tidy_quiet_tests__send_equivalence_checker.cc::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "tidy_quiet_doctests__address_dt.cc::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -57,6 +48,12 @@
 		},
 		{
 			"id" : "tidy_quiet_doctests__address_example_2.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_doctests__address_example_3.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_doctests__parser_dt.cc::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "tidy_quiet_doctests__parser_example.cc::@6890427a1f51a3e7e1df"
@@ -78,6 +75,18 @@
 		},
 		{
 			"id" : "tidy_quiet_libsponge__stream_reassembler.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_tcp_helpers__tcp_header.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_tcp_helpers__tcp_segment.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_tcp_helpers__tcp_state.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_libsponge__tcp_receiver.cc::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "tidy_quiet_util__address.cc::@6890427a1f51a3e7e1df"
@@ -102,6 +111,9 @@
 		},
 		{
 			"id" : "tidy_quiet_util__util.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_libsponge__wrapping_integers.cc::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "tidy_quiet_tests__byte_stream_capacity.cc::@6890427a1f51a3e7e1df"
@@ -231,6 +243,9 @@
 		},
 		{
 			"id" : "tidy_quiet_tests__send_connect.cc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tidy_quiet_tests__send_equivalence_checker.cc::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "tidy_quiet_tests__send_extra.cc::@6890427a1f51a3e7e1df"
