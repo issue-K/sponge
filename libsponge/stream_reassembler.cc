@@ -23,6 +23,7 @@ void StreamReassembler::syn() {
         vec_index_ = 1;
     }
 }
+
 void StreamReassembler::fin() {
     if (!fin_) {
         if (eof_ && empty()) {

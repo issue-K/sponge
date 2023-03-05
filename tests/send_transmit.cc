@@ -34,12 +34,10 @@ int main() {
             test.execute(ExpectBytesInFlight{8});
             test.execute(ExpectState{TCPSenderStateSummary::SYN_ACKED});
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
             cfg.fixed_isn = isn;
-
             TCPSenderTestHarness test{"Many short writes, continuous acks", cfg};
             test.execute(ExpectSegment{}.with_no_flags().with_syn(true).with_payload_size(0).with_seqno(isn));
             test.execute(AckReceived{WrappingInt32{isn + 1}});

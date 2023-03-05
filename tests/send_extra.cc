@@ -14,7 +14,81 @@ using namespace std;
 int main() {
     try {
         auto rd = get_random_generator();
+        {
+            TCPConfig cfg;
+            WrappingInt32 isn(rd());
+            const size_t rto = uniform_int_distribution<uint16_t>{30, 10000}(rd);
+            cfg.fixed_isn = isn;
+            cfg.rt_timeout = rto;
 
+            TCPSenderTestHarness test{"Don't add FIN if this would make the segment exceed the receiver's window", cfg};
+            test.execute(ExpectSegment{}.with_no_flags().with_syn(true).with_payload_size(0).with_seqno(isn));
+            test.execute(WriteBytes("abc").with_end_input(true));
+            test.execute(AckReceived{WrappingInt32{isn + 1}}.with_win(3));
+            test.execute(ExpectState{TCPSenderStateSummary::SYN_ACKED});
+            test.execute(ExpectSegment{}.with_payload_size(3).with_data("abc").with_seqno(isn + 1).with_no_flags());
+            test.execute(AckReceived{WrappingInt32{isn + 2}}.with_win(2));
+            test.execute(ExpectNoSegment{});
+            test.execute(AckReceived{WrappingInt32{isn + 3}}.with_win(1));
+            test.execute(ExpectNoSegment{});
+            test.execute(AckReceived{WrappingInt32{isn + 4}}.with_win(1));
+            test.execute(ExpectSegment{}.with_payload_size(0).with_seqno(isn + 4).with_fin(true));
+        }
+        //return 0;
+        {
+            TCPConfig cfg;
+            WrappingInt32 isn(rd());
+            const size_t rto = uniform_int_distribution<uint16_t>{30, 10000}(rd);
+            cfg.fixed_isn = isn;
+            cfg.rt_timeout = rto;
+
+            TCPSenderTestHarness test{
+                "When filling window, treat a '0' window size as equal to '1' but don't back off RTO", cfg};
+            test.execute(ExpectSegment{}.with_no_flags().with_syn(true).with_payload_size(0).with_seqno(isn));
+            test.execute(WriteBytes("abc"));
+            test.execute(ExpectNoSegment{});
+            test.execute(AckReceived{WrappingInt32{isn + 1}}.with_win(0));
+            test.execute(ExpectState{TCPSenderStateSummary::SYN_ACKED});
+            test.execute(ExpectSegment{}.with_payload_size(1).with_data("a").with_seqno(isn + 1).with_no_flags());
+            test.execute(Close{});
+            test.execute(ExpectNoSegment{});
+            for (unsigned int i = 0; i < 5; i++) {
+                test.execute(Tick{rto - 1});
+                test.execute(ExpectNoSegment{});
+                test.execute(Tick{1});
+                test.execute(ExpectSegment{}.with_payload_size(1).with_data("a").with_seqno(isn + 1).with_no_flags());
+            }
+
+            test.execute(AckReceived{isn + 2}.with_win(0));
+            test.execute(ExpectSegment{}.with_payload_size(1).with_data("b").with_seqno(isn + 2).with_no_flags());
+
+            for (unsigned int i = 0; i < 5; i++) {
+                test.execute(Tick{rto - 1});
+                test.execute(ExpectNoSegment{});
+                test.execute(Tick{1});
+                test.execute(ExpectSegment{}.with_payload_size(1).with_data("b").with_seqno(isn + 2).with_no_flags());
+            }
+
+            test.execute(AckReceived{isn + 3}.with_win(0));
+            test.execute(ExpectSegment{}.with_payload_size(1).with_data("c").with_seqno(isn + 3).with_no_flags());
+
+            for (unsigned int i = 0; i < 5; i++) {
+                test.execute(Tick{rto - 1});
+                test.execute(ExpectNoSegment{});
+                test.execute(Tick{1});
+                test.execute(ExpectSegment{}.with_payload_size(1).with_data("c").with_seqno(isn + 3).with_no_flags());
+            }
+
+            test.execute(AckReceived{isn + 4}.with_win(0));
+            test.execute(ExpectSegment{}.with_payload_size(0).with_data("").with_seqno(isn + 4).with_fin(true));
+
+            for (unsigned int i = 0; i < 5; i++) {
+                test.execute(Tick{rto - 1});
+                test.execute(ExpectNoSegment{});
+                test.execute(Tick{1});
+                test.execute(ExpectSegment{}.with_payload_size(0).with_data("").with_seqno(isn + 4).with_fin(true));
+            }
+        }
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -112,7 +186,6 @@ int main() {
             test.execute(ExpectSegment{}.with_payload_size(3).with_data("abc").with_seqno(isn + 1));
             test.execute(ExpectNoSegment{});
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -178,7 +251,6 @@ int main() {
                                  .with_seqno(isn + 1 + i));
             }
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -197,7 +269,6 @@ int main() {
             test.execute(Tick{2});
             test.execute(ExpectSegment{}.with_payload_size(3).with_data("abc").with_seqno(isn + 1).with_fin(true));
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -225,7 +296,6 @@ int main() {
             test.execute(Tick{10});
             test.execute(ExpectSegment{}.with_payload_size(0).with_seqno(isn + 4).with_fin(true));
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -246,7 +316,6 @@ int main() {
             test.execute(AckReceived{WrappingInt32{isn + 4}}.with_win(1));
             test.execute(ExpectSegment{}.with_payload_size(0).with_seqno(isn + 4).with_fin(true));
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -270,7 +339,6 @@ int main() {
             test.execute(AckReceived{WrappingInt32{isn + 4}}.with_win(1));
             test.execute(ExpectSegment{}.with_payload_size(0).with_seqno(isn + 4).with_fin(true));
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -353,7 +421,6 @@ int main() {
                 test.execute(ExpectSegment{}.with_payload_size(0).with_data("").with_seqno(isn + 4).with_fin(true));
             }
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());
@@ -389,7 +456,6 @@ int main() {
             test.execute(AckReceived{WrappingInt32{isn + 2}}.with_win(3));
             test.execute(ExpectSegment{}.with_payload_size(2).with_data("bc").with_seqno(isn + 2).with_fin(true));
         }
-
         {
             TCPConfig cfg;
             WrappingInt32 isn(rd());

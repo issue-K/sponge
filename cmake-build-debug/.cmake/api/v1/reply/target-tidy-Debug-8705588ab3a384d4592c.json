@@ -89,6 +89,9 @@
 			"id" : "tidy_quiet_libsponge__tcp_receiver.cc::@6890427a1f51a3e7e1df"
 		},
 		{
+			"id" : "tidy_quiet_libsponge__tcp_sender.cc::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "tidy_quiet_util__address.cc::@6890427a1f51a3e7e1df"
 		},
 		{
