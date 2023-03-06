@@ -20,17 +20,16 @@ void StreamReassembler::syn() {
     if (!syn_) {
         syn_ = true;
         first_unassembled_ = 1;
-        vec_index_ = 1;
+        vec_index_ = (vec_index_ + 1) % _capacity;
     }
 }
 
 void StreamReassembler::fin() {
     if (!fin_) {
-        if (eof_ && empty()) {
-            fin_ = true;
-            first_unassembled_++;
-            vec_index_ = (vec_index_ + 1) % _capacity;
-        }
+        assert(empty());
+        fin_ = true;
+        first_unassembled_++;
+        vec_index_ = (vec_index_ + 1) % _capacity;
     }
 }
 
@@ -43,11 +42,13 @@ void StreamReassembler::push_byteStream() {
         has_[vec_index_] = false;
         vec_index_ = (vec_index_ + 1) % _capacity;
     }
-    _output.write(input);
+    auto x = _output.write(input);
+    wait_index += x;
+    // 让_output终止.
     if (eof_ && empty()){
         _output.end_input();
+        fin();
     }
-    fin();
 }
 //! \details This function accepts a substring (aka a segment) of bytes,
 //! possibly out-of-order, from the logical stream, and assembles any newly

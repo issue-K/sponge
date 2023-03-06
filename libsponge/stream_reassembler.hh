@@ -31,6 +31,7 @@ class StreamReassembler {
     void push_byteStream();
 
   public:
+    uint64_t wait_index{0};
     //! \brief Construct a `StreamReassembler` that will store up to `capacity` bytes.
     //! \note This capacity limits both the bytes that have been reassembled,
     //! and those that have not yet been reassembled.

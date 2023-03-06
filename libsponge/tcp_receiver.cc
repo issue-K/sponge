@@ -14,9 +14,11 @@ using namespace std;
 // important: 由于段中的syn和fin拥有独立的序列号
 // 而之前StreamReassembler::push_substring传递的是绝对序列号, 以0开始.
 // 那么现在, 需要告诉StreamReassembler::push_substring收到syn和fin信息)
-// syn主动调用_reassembler.syn(), fin由eof参数传递过去
+// syn主动调用_reassembler.syn(), fin由eof参数传递过去.
+// 重点在于维护_reassembler.GetFirstUnassembled(): 第一个未重组字节索引
+// 1、当收到syn包, 令_reassembler.GetFirstUnassembled() = 1
+// 2、当收到fin包, 把信号传递给_reassembler. _reassembler判断, 若当前所有字节推送给字节流后, 再令_reassembler.GetFirstUnassembled()++;
 void TCPReceiver::segment_received(const TCPSegment &seg) {
-    DUMMY_CODE(seg);
     // 若本包是SYN包, segno要自增.(syn序列号本身没有任何字节)
     auto seqno = seg.header().seqno;
     if (seg.header().syn) {
@@ -29,7 +31,7 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
     }
     string str = seg.payload().copy();
     auto isn = isn_.value();
-    // 这里seqno必须是数据开始的部分
+    // 这里seqno必须是数据开始的部分. 而且即使负载为0, 仍要push_substring. 因为fin标记需要下推
     uint64_t index = unwrap(seqno, isn, _reassembler.GetFirstUnassembled());
     _reassembler.push_substring(str, index, seg.header().fin);
 }
@@ -47,4 +49,5 @@ optional<WrappingInt32> TCPReceiver::ackno() const {
 // 返回“first unassembled”索引(对应ackno的索引)和“first unacceptable”索引之间的距离。
 size_t TCPReceiver::window_size() const {
     return _reassembler.GetFirstUnacceptable() - _reassembler.GetFirstUnassembled();
+    //return _capacity - _reassembler.stream_out().buffer_size();
 }
