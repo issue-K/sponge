@@ -1,4 +1,4 @@
-// #include "socket.hh"
+#include "socket.hh"
 #include "tcp_sponge_socket.hh"
 #include "util.hh"
 
@@ -23,11 +23,6 @@ void get_URL(const string &host, const string &path) {
     std::string httpRequest = "GET " + path + " HTTP/1.1\r\n"
                               + "Host: " + host + "\r\n"
                               +"Connection: close\r\n\r\n";
-
-    //    sock1.write("GET " + path + " HTTP/1.1\r\n");
-    //    sock1.write("Host: " + path + "\r\n");
-    //    sock1.write("Connection: close\r\n");
-    //    sock1.write("\r\n");
     sock1.write(httpRequest);
     string msg, temp;
     while (!sock1.eof()) {

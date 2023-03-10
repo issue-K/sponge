@@ -54,6 +54,8 @@ class Buffer {
 //! + a payload. This allows us to prepend headers (e.g., to
 //! encapsulate a TCP payload in a TCPSegment, and then encapsulate
 //! the TCPSegment in an IPv4Datagram) without copying the payload.
+// 一个引用计数的不连续字符串，可以丢弃前端说明中的字节，用于构建包含多个头部的数据包。
+// 这允许我们添加首部(例如，将TCP有效载荷封装在TCPSegment中，然后将TCPSegment封装在IPv4Datagram中)，而无需复制有效载荷。
 class BufferList {
   private:
     std::deque<Buffer> _buffers{};
