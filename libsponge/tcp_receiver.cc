@@ -39,7 +39,7 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
 
 // 其中包含接收者不知道的第一个字节的序列号。这是窗口的左边缘: 接收器想要接收的第一个字节。
 // 如果还没有设置ISN，则返回一个空的optional对象。
-optional<WrappingInt32> TCPReceiver::ackno() const {
+std::optional<WrappingInt32> TCPReceiver::ackno() const {
     if (!isn_.has_value()) {
         return {};
     }
