@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "apps/tcp_benchmark"
+			"path" : "apps/tcp_ip_ethernet"
 		}
 	],
 	"backtrace" : 2,
@@ -29,7 +29,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 9,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
@@ -114,9 +114,13 @@
 		{
 			"backtrace" : 3,
 			"id" : "sponge::@a8e6c790d0258cd30bbf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "stream_copy::@9e189ee61a034fc9b705"
 		}
 	],
-	"id" : "tcp_benchmark::@9e189ee61a034fc9b705",
+	"id" : "tcp_ip_ethernet::@9e189ee61a034fc9b705",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -131,6 +135,11 @@
 			},
 			{
 				"backtrace" : 3,
+				"fragment" : "apps/libstream_copy.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "libsponge/libsponge.a",
 				"role" : "libraries"
 			},
@@ -142,8 +151,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "tcp_benchmark",
-	"nameOnDisk" : "tcp_benchmark",
+	"name" : "tcp_ip_ethernet",
+	"nameOnDisk" : "tcp_ip_ethernet",
 	"paths" : 
 	{
 		"build" : "apps",
@@ -164,7 +173,7 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "apps/tcp_benchmark.cc",
+			"path" : "apps/tcp_ip_ethernet.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

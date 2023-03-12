@@ -75,6 +75,18 @@ build tidy_apps__tcp_benchmark.cc: phony CMakeFiles/tidy_apps__tcp_benchmark.cc
 
 
 #############################################
+# Utility command for tidy_quiet_apps__tcp_ip_ethernet.cc
+
+build tidy_quiet_apps__tcp_ip_ethernet.cc: phony CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc
+
+
+#############################################
+# Utility command for tidy_apps__tcp_ip_ethernet.cc
+
+build tidy_apps__tcp_ip_ethernet.cc: phony CMakeFiles/tidy_apps__tcp_ip_ethernet.cc
+
+
+#############################################
 # Utility command for tidy_quiet_apps__tcp_ipv4.cc
 
 build tidy_quiet_apps__tcp_ipv4.cc: phony CMakeFiles/tidy_quiet_apps__tcp_ipv4.cc
@@ -279,6 +291,18 @@ build tidy_libsponge__byte_stream.cc: phony CMakeFiles/tidy_libsponge__byte_stre
 
 
 #############################################
+# Utility command for tidy_quiet_libsponge__network_interface.cc
+
+build tidy_quiet_libsponge__network_interface.cc: phony CMakeFiles/tidy_quiet_libsponge__network_interface.cc
+
+
+#############################################
+# Utility command for tidy_libsponge__network_interface.cc
+
+build tidy_libsponge__network_interface.cc: phony CMakeFiles/tidy_libsponge__network_interface.cc
+
+
+#############################################
 # Utility command for tidy_quiet_libsponge__stream_reassembler.cc
 
 build tidy_quiet_libsponge__stream_reassembler.cc: phony CMakeFiles/tidy_quiet_libsponge__stream_reassembler.cc
@@ -300,6 +324,42 @@ build tidy_quiet_libsponge__tcp_connection.cc: phony CMakeFiles/tidy_quiet_libsp
 # Utility command for tidy_libsponge__tcp_connection.cc
 
 build tidy_libsponge__tcp_connection.cc: phony CMakeFiles/tidy_libsponge__tcp_connection.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tcp_helpers__arp_message.cc
+
+build tidy_quiet_tcp_helpers__arp_message.cc: phony CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc
+
+
+#############################################
+# Utility command for tidy_tcp_helpers__arp_message.cc
+
+build tidy_tcp_helpers__arp_message.cc: phony CMakeFiles/tidy_tcp_helpers__arp_message.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tcp_helpers__ethernet_frame.cc
+
+build tidy_quiet_tcp_helpers__ethernet_frame.cc: phony CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc
+
+
+#############################################
+# Utility command for tidy_tcp_helpers__ethernet_frame.cc
+
+build tidy_tcp_helpers__ethernet_frame.cc: phony CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc
+
+
+#############################################
+# Utility command for tidy_quiet_tcp_helpers__ethernet_header.cc
+
+build tidy_quiet_tcp_helpers__ethernet_header.cc: phony CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc
+
+
+#############################################
+# Utility command for tidy_tcp_helpers__ethernet_header.cc
+
+build tidy_tcp_helpers__ethernet_header.cc: phony CMakeFiles/tidy_tcp_helpers__ethernet_header.cc
 
 
 #############################################
@@ -1193,13 +1253,13 @@ build tidy_tests__wrapping_integers_wrap.cc: phony CMakeFiles/tidy_tests__wrappi
 #############################################
 # Utility command for tidy
 
-build tidy: phony CMakeFiles/tidy tidy_quiet_apps__bidirectional_stream_copy.cc tidy_quiet_apps__tcp_benchmark.cc tidy_quiet_apps__tcp_ipv4.cc tidy_quiet_apps__tcp_native.cc tidy_quiet_apps__tcp_udp.cc tidy_quiet_apps__tun.cc tidy_quiet_apps__udp_tcpdump.cc tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_libsponge__tcp_connection.cc tidy_quiet_libsponge__tcp_receiver.cc tidy_quiet_libsponge__tcp_sender.cc tidy_quiet_libsponge__wrapping_integers.cc tidy_quiet_tcp_helpers__fd_adapter.cc tidy_quiet_tcp_helpers__ipv4_datagram.cc tidy_quiet_tcp_helpers__ipv4_header.cc tidy_quiet_tcp_helpers__tcp_header.cc tidy_quiet_tcp_helpers__tcp_over_ip.cc tidy_quiet_tcp_helpers__tcp_segment.cc tidy_quiet_tcp_helpers__tcp_sponge_socket.cc tidy_quiet_tcp_helpers__tcp_state.cc tidy_quiet_tcp_helpers__tuntap_adapter.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
+build tidy: phony CMakeFiles/tidy tidy_quiet_apps__bidirectional_stream_copy.cc tidy_quiet_apps__tcp_benchmark.cc tidy_quiet_apps__tcp_ip_ethernet.cc tidy_quiet_apps__tcp_ipv4.cc tidy_quiet_apps__tcp_native.cc tidy_quiet_apps__tcp_udp.cc tidy_quiet_apps__tun.cc tidy_quiet_apps__udp_tcpdump.cc tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__network_interface.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_libsponge__tcp_connection.cc tidy_quiet_libsponge__tcp_receiver.cc tidy_quiet_libsponge__tcp_sender.cc tidy_quiet_libsponge__wrapping_integers.cc tidy_quiet_tcp_helpers__arp_message.cc tidy_quiet_tcp_helpers__ethernet_frame.cc tidy_quiet_tcp_helpers__ethernet_header.cc tidy_quiet_tcp_helpers__fd_adapter.cc tidy_quiet_tcp_helpers__ipv4_datagram.cc tidy_quiet_tcp_helpers__ipv4_header.cc tidy_quiet_tcp_helpers__tcp_header.cc tidy_quiet_tcp_helpers__tcp_over_ip.cc tidy_quiet_tcp_helpers__tcp_segment.cc tidy_quiet_tcp_helpers__tcp_sponge_socket.cc tidy_quiet_tcp_helpers__tcp_state.cc tidy_quiet_tcp_helpers__tuntap_adapter.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
 
 
 #############################################
 # Utility command for tidy_verbose
 
-build tidy_verbose: phony CMakeFiles/tidy_verbose tidy_apps__bidirectional_stream_copy.cc tidy_apps__tcp_benchmark.cc tidy_apps__tcp_ipv4.cc tidy_apps__tcp_native.cc tidy_apps__tcp_udp.cc tidy_apps__tun.cc tidy_apps__udp_tcpdump.cc tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__stream_reassembler.cc tidy_libsponge__tcp_connection.cc tidy_libsponge__tcp_receiver.cc tidy_libsponge__tcp_sender.cc tidy_libsponge__wrapping_integers.cc tidy_tcp_helpers__fd_adapter.cc tidy_tcp_helpers__ipv4_datagram.cc tidy_tcp_helpers__ipv4_header.cc tidy_tcp_helpers__tcp_header.cc tidy_tcp_helpers__tcp_over_ip.cc tidy_tcp_helpers__tcp_segment.cc tidy_tcp_helpers__tcp_sponge_socket.cc tidy_tcp_helpers__tcp_state.cc tidy_tcp_helpers__tuntap_adapter.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
+build tidy_verbose: phony CMakeFiles/tidy_verbose tidy_apps__bidirectional_stream_copy.cc tidy_apps__tcp_benchmark.cc tidy_apps__tcp_ip_ethernet.cc tidy_apps__tcp_ipv4.cc tidy_apps__tcp_native.cc tidy_apps__tcp_udp.cc tidy_apps__tun.cc tidy_apps__udp_tcpdump.cc tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__network_interface.cc tidy_libsponge__stream_reassembler.cc tidy_libsponge__tcp_connection.cc tidy_libsponge__tcp_receiver.cc tidy_libsponge__tcp_sender.cc tidy_libsponge__wrapping_integers.cc tidy_tcp_helpers__arp_message.cc tidy_tcp_helpers__ethernet_frame.cc tidy_tcp_helpers__ethernet_header.cc tidy_tcp_helpers__fd_adapter.cc tidy_tcp_helpers__ipv4_datagram.cc tidy_tcp_helpers__ipv4_header.cc tidy_tcp_helpers__tcp_header.cc tidy_tcp_helpers__tcp_over_ip.cc tidy_tcp_helpers__tcp_segment.cc tidy_tcp_helpers__tcp_sponge_socket.cc tidy_tcp_helpers__tcp_state.cc tidy_tcp_helpers__tuntap_adapter.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
 
 
 #############################################
@@ -1332,6 +1392,20 @@ build CMakeFiles/tidy_quiet_apps__tcp_benchmark.cc | ${cmake_ninja_workdir}CMake
 
 build CMakeFiles/tidy_apps__tcp_benchmark.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_apps__tcp_benchmark.cc: CUSTOM_COMMAND
   COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/apps/tcp_benchmark.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc
+
+build CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/apps/tcp_ip_ethernet.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_apps__tcp_ip_ethernet.cc
+
+build CMakeFiles/tidy_apps__tcp_ip_ethernet.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_apps__tcp_ip_ethernet.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/apps/tcp_ip_ethernet.cc
 
 
 #############################################
@@ -1573,6 +1647,20 @@ build CMakeFiles/tidy_libsponge__byte_stream.cc | ${cmake_ninja_workdir}CMakeFil
 
 
 #############################################
+# Custom command for CMakeFiles/tidy_quiet_libsponge__network_interface.cc
+
+build CMakeFiles/tidy_quiet_libsponge__network_interface.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_libsponge__network_interface.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/network_interface.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_libsponge__network_interface.cc
+
+build CMakeFiles/tidy_libsponge__network_interface.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_libsponge__network_interface.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/network_interface.cc
+
+
+#############################################
 # Custom command for CMakeFiles/tidy_quiet_libsponge__stream_reassembler.cc
 
 build CMakeFiles/tidy_quiet_libsponge__stream_reassembler.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_libsponge__stream_reassembler.cc: CUSTOM_COMMAND
@@ -1598,6 +1686,48 @@ build CMakeFiles/tidy_quiet_libsponge__tcp_connection.cc | ${cmake_ninja_workdir
 
 build CMakeFiles/tidy_libsponge__tcp_connection.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_libsponge__tcp_connection.cc: CUSTOM_COMMAND
   COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_connection.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc
+
+build CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/arp_message.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tcp_helpers__arp_message.cc
+
+build CMakeFiles/tidy_tcp_helpers__arp_message.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tcp_helpers__arp_message.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/arp_message.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc
+
+build CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/ethernet_frame.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc
+
+build CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/ethernet_frame.cc
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc
+
+build CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/ethernet_header.cc 2>/dev/null
+
+
+#############################################
+# Custom command for CMakeFiles/tidy_tcp_helpers__ethernet_header.cc
+
+build CMakeFiles/tidy_tcp_helpers__ethernet_header.cc | ${cmake_ninja_workdir}CMakeFiles/tidy_tcp_helpers__ethernet_header.cc: CUSTOM_COMMAND
+  COMMAND = cd /Users/cl/Code/C/sponge-cl/cmake-build-debug && clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/Users/cl/Code/C/sponge-cl/cmake-build-debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/ethernet_header.cc
 
 
 #############################################
@@ -2639,13 +2769,13 @@ build CMakeFiles/tidy_tests__wrapping_integers_wrap.cc | ${cmake_ninja_workdir}C
 #############################################
 # Phony custom command for CMakeFiles/tidy
 
-build CMakeFiles/tidy | ${cmake_ninja_workdir}CMakeFiles/tidy: phony || tidy_quiet_apps__bidirectional_stream_copy.cc tidy_quiet_apps__tcp_benchmark.cc tidy_quiet_apps__tcp_ipv4.cc tidy_quiet_apps__tcp_native.cc tidy_quiet_apps__tcp_udp.cc tidy_quiet_apps__tun.cc tidy_quiet_apps__udp_tcpdump.cc tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_libsponge__tcp_connection.cc tidy_quiet_libsponge__tcp_receiver.cc tidy_quiet_libsponge__tcp_sender.cc tidy_quiet_libsponge__wrapping_integers.cc tidy_quiet_tcp_helpers__fd_adapter.cc tidy_quiet_tcp_helpers__ipv4_datagram.cc tidy_quiet_tcp_helpers__ipv4_header.cc tidy_quiet_tcp_helpers__tcp_header.cc tidy_quiet_tcp_helpers__tcp_over_ip.cc tidy_quiet_tcp_helpers__tcp_segment.cc tidy_quiet_tcp_helpers__tcp_sponge_socket.cc tidy_quiet_tcp_helpers__tcp_state.cc tidy_quiet_tcp_helpers__tuntap_adapter.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
+build CMakeFiles/tidy | ${cmake_ninja_workdir}CMakeFiles/tidy: phony || tidy_quiet_apps__bidirectional_stream_copy.cc tidy_quiet_apps__tcp_benchmark.cc tidy_quiet_apps__tcp_ip_ethernet.cc tidy_quiet_apps__tcp_ipv4.cc tidy_quiet_apps__tcp_native.cc tidy_quiet_apps__tcp_udp.cc tidy_quiet_apps__tun.cc tidy_quiet_apps__udp_tcpdump.cc tidy_quiet_apps__webget.cc tidy_quiet_doctests__address_dt.cc tidy_quiet_doctests__address_example_1.cc tidy_quiet_doctests__address_example_2.cc tidy_quiet_doctests__address_example_3.cc tidy_quiet_doctests__parser_dt.cc tidy_quiet_doctests__parser_example.cc tidy_quiet_doctests__socket_dt.cc tidy_quiet_doctests__socket_example_1.cc tidy_quiet_doctests__socket_example_2.cc tidy_quiet_doctests__socket_example_3.cc tidy_quiet_libsponge__byte_stream.cc tidy_quiet_libsponge__network_interface.cc tidy_quiet_libsponge__stream_reassembler.cc tidy_quiet_libsponge__tcp_connection.cc tidy_quiet_libsponge__tcp_receiver.cc tidy_quiet_libsponge__tcp_sender.cc tidy_quiet_libsponge__wrapping_integers.cc tidy_quiet_tcp_helpers__arp_message.cc tidy_quiet_tcp_helpers__ethernet_frame.cc tidy_quiet_tcp_helpers__ethernet_header.cc tidy_quiet_tcp_helpers__fd_adapter.cc tidy_quiet_tcp_helpers__ipv4_datagram.cc tidy_quiet_tcp_helpers__ipv4_header.cc tidy_quiet_tcp_helpers__tcp_header.cc tidy_quiet_tcp_helpers__tcp_over_ip.cc tidy_quiet_tcp_helpers__tcp_segment.cc tidy_quiet_tcp_helpers__tcp_sponge_socket.cc tidy_quiet_tcp_helpers__tcp_state.cc tidy_quiet_tcp_helpers__tuntap_adapter.cc tidy_quiet_tests__byte_stream_capacity.cc tidy_quiet_tests__byte_stream_construction.cc tidy_quiet_tests__byte_stream_many_writes.cc tidy_quiet_tests__byte_stream_one_write.cc tidy_quiet_tests__byte_stream_test_harness.cc tidy_quiet_tests__byte_stream_two_writes.cc tidy_quiet_tests__fsm_ack_rst.cc tidy_quiet_tests__fsm_ack_rst_relaxed.cc tidy_quiet_tests__fsm_ack_rst_win.cc tidy_quiet_tests__fsm_ack_rst_win_relaxed.cc tidy_quiet_tests__fsm_active_close.cc tidy_quiet_tests__fsm_connect.cc tidy_quiet_tests__fsm_connect_relaxed.cc tidy_quiet_tests__fsm_listen.cc tidy_quiet_tests__fsm_listen_relaxed.cc tidy_quiet_tests__fsm_loopback.cc tidy_quiet_tests__fsm_loopback_win.cc tidy_quiet_tests__fsm_passive_close.cc tidy_quiet_tests__fsm_reorder.cc tidy_quiet_tests__fsm_retx.cc tidy_quiet_tests__fsm_retx_relaxed.cc tidy_quiet_tests__fsm_retx_win.cc tidy_quiet_tests__fsm_stream_reassembler_cap.cc tidy_quiet_tests__fsm_stream_reassembler_dup.cc tidy_quiet_tests__fsm_stream_reassembler_holes.cc tidy_quiet_tests__fsm_stream_reassembler_many.cc tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc tidy_quiet_tests__fsm_stream_reassembler_seq.cc tidy_quiet_tests__fsm_stream_reassembler_single.cc tidy_quiet_tests__fsm_stream_reassembler_win.cc tidy_quiet_tests__fsm_winsize.cc tidy_quiet_tests__ipv4_parser.cc tidy_quiet_tests__net_interface.cc tidy_quiet_tests__network_interface_test_harness.cc tidy_quiet_tests__recv_close.cc tidy_quiet_tests__recv_connect.cc tidy_quiet_tests__recv_reorder.cc tidy_quiet_tests__recv_special.cc tidy_quiet_tests__recv_transmit.cc tidy_quiet_tests__recv_window.cc tidy_quiet_tests__send_ack.cc tidy_quiet_tests__send_close.cc tidy_quiet_tests__send_connect.cc tidy_quiet_tests__send_equivalence_checker.cc tidy_quiet_tests__send_extra.cc tidy_quiet_tests__send_retx.cc tidy_quiet_tests__send_transmit.cc tidy_quiet_tests__send_window.cc tidy_quiet_tests__tcp_fsm_test_harness.cc tidy_quiet_tests__tcp_parser.cc tidy_quiet_tests__wrapping_integers_cmp.cc tidy_quiet_tests__wrapping_integers_roundtrip.cc tidy_quiet_tests__wrapping_integers_unwrap.cc tidy_quiet_tests__wrapping_integers_wrap.cc tidy_quiet_util__address.cc tidy_quiet_util__buffer.cc tidy_quiet_util__eventloop.cc tidy_quiet_util__file_descriptor.cc tidy_quiet_util__parser.cc tidy_quiet_util__socket.cc tidy_quiet_util__tun.cc tidy_quiet_util__util.cc
 
 
 #############################################
 # Phony custom command for CMakeFiles/tidy_verbose
 
-build CMakeFiles/tidy_verbose | ${cmake_ninja_workdir}CMakeFiles/tidy_verbose: phony || tidy_apps__bidirectional_stream_copy.cc tidy_apps__tcp_benchmark.cc tidy_apps__tcp_ipv4.cc tidy_apps__tcp_native.cc tidy_apps__tcp_udp.cc tidy_apps__tun.cc tidy_apps__udp_tcpdump.cc tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__stream_reassembler.cc tidy_libsponge__tcp_connection.cc tidy_libsponge__tcp_receiver.cc tidy_libsponge__tcp_sender.cc tidy_libsponge__wrapping_integers.cc tidy_tcp_helpers__fd_adapter.cc tidy_tcp_helpers__ipv4_datagram.cc tidy_tcp_helpers__ipv4_header.cc tidy_tcp_helpers__tcp_header.cc tidy_tcp_helpers__tcp_over_ip.cc tidy_tcp_helpers__tcp_segment.cc tidy_tcp_helpers__tcp_sponge_socket.cc tidy_tcp_helpers__tcp_state.cc tidy_tcp_helpers__tuntap_adapter.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
+build CMakeFiles/tidy_verbose | ${cmake_ninja_workdir}CMakeFiles/tidy_verbose: phony || tidy_apps__bidirectional_stream_copy.cc tidy_apps__tcp_benchmark.cc tidy_apps__tcp_ip_ethernet.cc tidy_apps__tcp_ipv4.cc tidy_apps__tcp_native.cc tidy_apps__tcp_udp.cc tidy_apps__tun.cc tidy_apps__udp_tcpdump.cc tidy_apps__webget.cc tidy_doctests__address_dt.cc tidy_doctests__address_example_1.cc tidy_doctests__address_example_2.cc tidy_doctests__address_example_3.cc tidy_doctests__parser_dt.cc tidy_doctests__parser_example.cc tidy_doctests__socket_dt.cc tidy_doctests__socket_example_1.cc tidy_doctests__socket_example_2.cc tidy_doctests__socket_example_3.cc tidy_libsponge__byte_stream.cc tidy_libsponge__network_interface.cc tidy_libsponge__stream_reassembler.cc tidy_libsponge__tcp_connection.cc tidy_libsponge__tcp_receiver.cc tidy_libsponge__tcp_sender.cc tidy_libsponge__wrapping_integers.cc tidy_tcp_helpers__arp_message.cc tidy_tcp_helpers__ethernet_frame.cc tidy_tcp_helpers__ethernet_header.cc tidy_tcp_helpers__fd_adapter.cc tidy_tcp_helpers__ipv4_datagram.cc tidy_tcp_helpers__ipv4_header.cc tidy_tcp_helpers__tcp_header.cc tidy_tcp_helpers__tcp_over_ip.cc tidy_tcp_helpers__tcp_segment.cc tidy_tcp_helpers__tcp_sponge_socket.cc tidy_tcp_helpers__tcp_state.cc tidy_tcp_helpers__tuntap_adapter.cc tidy_tests__byte_stream_capacity.cc tidy_tests__byte_stream_construction.cc tidy_tests__byte_stream_many_writes.cc tidy_tests__byte_stream_one_write.cc tidy_tests__byte_stream_test_harness.cc tidy_tests__byte_stream_two_writes.cc tidy_tests__fsm_ack_rst.cc tidy_tests__fsm_ack_rst_relaxed.cc tidy_tests__fsm_ack_rst_win.cc tidy_tests__fsm_ack_rst_win_relaxed.cc tidy_tests__fsm_active_close.cc tidy_tests__fsm_connect.cc tidy_tests__fsm_connect_relaxed.cc tidy_tests__fsm_listen.cc tidy_tests__fsm_listen_relaxed.cc tidy_tests__fsm_loopback.cc tidy_tests__fsm_loopback_win.cc tidy_tests__fsm_passive_close.cc tidy_tests__fsm_reorder.cc tidy_tests__fsm_retx.cc tidy_tests__fsm_retx_relaxed.cc tidy_tests__fsm_retx_win.cc tidy_tests__fsm_stream_reassembler_cap.cc tidy_tests__fsm_stream_reassembler_dup.cc tidy_tests__fsm_stream_reassembler_holes.cc tidy_tests__fsm_stream_reassembler_many.cc tidy_tests__fsm_stream_reassembler_overlapping.cc tidy_tests__fsm_stream_reassembler_seq.cc tidy_tests__fsm_stream_reassembler_single.cc tidy_tests__fsm_stream_reassembler_win.cc tidy_tests__fsm_winsize.cc tidy_tests__ipv4_parser.cc tidy_tests__net_interface.cc tidy_tests__network_interface_test_harness.cc tidy_tests__recv_close.cc tidy_tests__recv_connect.cc tidy_tests__recv_reorder.cc tidy_tests__recv_special.cc tidy_tests__recv_transmit.cc tidy_tests__recv_window.cc tidy_tests__send_ack.cc tidy_tests__send_close.cc tidy_tests__send_connect.cc tidy_tests__send_equivalence_checker.cc tidy_tests__send_extra.cc tidy_tests__send_retx.cc tidy_tests__send_transmit.cc tidy_tests__send_window.cc tidy_tests__tcp_fsm_test_harness.cc tidy_tests__tcp_parser.cc tidy_tests__wrapping_integers_cmp.cc tidy_tests__wrapping_integers_roundtrip.cc tidy_tests__wrapping_integers_unwrap.cc tidy_tests__wrapping_integers_wrap.cc tidy_util__address.cc tidy_util__buffer.cc tidy_util__eventloop.cc tidy_util__file_descriptor.cc tidy_util__parser.cc tidy_util__socket.cc tidy_util__tun.cc tidy_util__util.cc
 
 
 #############################################
@@ -2740,6 +2870,13 @@ build libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o: CXX_COMPILER__sponge_Deb
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
   OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
 
+build libsponge/CMakeFiles/sponge.dir/network_interface.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/network_interface.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/network_interface.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+
 build libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/stream_reassembler.cc || cmake_object_order_depends_target_sponge
   DEP_FILE = libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o.d
   FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
@@ -2753,6 +2890,27 @@ build libsponge/CMakeFiles/sponge.dir/tcp_connection.cc.o: CXX_COMPILER__sponge_
   INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
   OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir
+
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/arp_message.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/arp_message.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/arp_message.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/ethernet_frame.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/ethernet_frame.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/ethernet_frame.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
+
+build libsponge/CMakeFiles/sponge.dir/tcp_helpers/ethernet_header.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/ethernet_header.cc || cmake_object_order_depends_target_sponge
+  DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/ethernet_header.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
+  OBJECT_FILE_DIR = libsponge/CMakeFiles/sponge.dir/tcp_helpers
 
 build libsponge/CMakeFiles/sponge.dir/tcp_helpers/fd_adapter.cc.o: CXX_COMPILER__sponge_Debug /Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers/fd_adapter.cc || cmake_object_order_depends_target_sponge
   DEP_FILE = libsponge/CMakeFiles/sponge.dir/tcp_helpers/fd_adapter.cc.o.d
@@ -2902,7 +3060,7 @@ build libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o: CXX_COMPILER__spon
 #############################################
 # Link the static library libsponge/libsponge.a
 
-build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/tcp_connection.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/fd_adapter.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/ipv4_datagram.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/ipv4_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_over_ip.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_sponge_socket.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tuntap_adapter.cc.o libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o
+build libsponge/libsponge.a: CXX_STATIC_LIBRARY_LINKER__sponge_Debug libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o libsponge/CMakeFiles/sponge.dir/network_interface.cc.o libsponge/CMakeFiles/sponge.dir/stream_reassembler.cc.o libsponge/CMakeFiles/sponge.dir/tcp_connection.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/arp_message.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/ethernet_frame.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/ethernet_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/fd_adapter.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/ipv4_datagram.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/ipv4_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_header.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_over_ip.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_segment.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_sponge_socket.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tcp_state.cc.o libsponge/CMakeFiles/sponge.dir/tcp_helpers/tuntap_adapter.cc.o libsponge/CMakeFiles/sponge.dir/tcp_receiver.cc.o libsponge/CMakeFiles/sponge.dir/tcp_sender.cc.o libsponge/CMakeFiles/sponge.dir/util/address.cc.o libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o libsponge/CMakeFiles/sponge.dir/util/parser.cc.o libsponge/CMakeFiles/sponge.dir/util/socket.cc.o libsponge/CMakeFiles/sponge.dir/util/tun.cc.o libsponge/CMakeFiles/sponge.dir/util/util.cc.o libsponge/CMakeFiles/sponge.dir/wrapping_integers.cc.o
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   LANGUAGE_COMPILE_FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og
   OBJECT_DIR = libsponge/CMakeFiles/sponge.dir
@@ -3150,6 +3308,39 @@ build apps/tcp_ipv4: CXX_EXECUTABLE_LINKER__tcp_ipv4_Debug apps/CMakeFiles/tcp_i
   TARGET_PDB = tcp_ipv4.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target tcp_ip_ethernet
+
+
+#############################################
+# Order-only phony target for tcp_ip_ethernet
+
+build cmake_object_order_depends_target_tcp_ip_ethernet: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_stream_copy
+
+build apps/CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.o: CXX_COMPILER__tcp_ip_ethernet_Debug /Users/cl/Code/C/sponge-cl/apps/tcp_ip_ethernet.cc || cmake_object_order_depends_target_tcp_ip_ethernet
+  DEP_FILE = apps/CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = apps/CMakeFiles/tcp_ip_ethernet.dir
+  OBJECT_FILE_DIR = apps/CMakeFiles/tcp_ip_ethernet.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tcp_ip_ethernet
+
+
+#############################################
+# Link the executable apps/tcp_ip_ethernet
+
+build apps/tcp_ip_ethernet: CXX_EXECUTABLE_LINKER__tcp_ip_ethernet_Debug apps/CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.o | apps/libstream_copy.a libsponge/libsponge.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd || apps/libstream_copy.a libsponge/libsponge.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = apps/libstream_copy.a  libsponge/libsponge.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libpthread.tbd
+  OBJECT_DIR = apps/CMakeFiles/tcp_ip_ethernet.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = apps/tcp_ip_ethernet
+  TARGET_PDB = tcp_ip_ethernet.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target webget
 
 
@@ -3285,6 +3476,13 @@ build tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: CXX_COMPI
   OBJECT_DIR = tests/CMakeFiles/spongechecks.dir
   OBJECT_FILE_DIR = tests/CMakeFiles/spongechecks.dir
 
+build tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o: CXX_COMPILER__spongechecks_Debug /Users/cl/Code/C/sponge-cl/tests/network_interface_test_harness.cc || cmake_object_order_depends_target_spongechecks
+  DEP_FILE = tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/spongechecks.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/spongechecks.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target spongechecks
@@ -3293,7 +3491,7 @@ build tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o: CXX_COMPI
 #############################################
 # Link the static library tests/libspongechecks.a
 
-build tests/libspongechecks.a: CXX_STATIC_LIBRARY_LINKER__spongechecks_Debug tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o
+build tests/libspongechecks.a: CXX_STATIC_LIBRARY_LINKER__spongechecks_Debug tests/CMakeFiles/spongechecks.dir/send_equivalence_checker.cc.o tests/CMakeFiles/spongechecks.dir/tcp_fsm_test_harness.cc.o tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   LANGUAGE_COMPILE_FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og
   OBJECT_DIR = tests/CMakeFiles/spongechecks.dir
@@ -4754,6 +4952,39 @@ build tests/send_extra: CXX_EXECUTABLE_LINKER__send_extra_Debug tests/CMakeFiles
   TARGET_FILE = tests/send_extra
   TARGET_PDB = send_extra.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target net_interface
+
+
+#############################################
+# Order-only phony target for net_interface
+
+build cmake_object_order_depends_target_net_interface: phony || cmake_object_order_depends_target_sponge cmake_object_order_depends_target_spongechecks
+
+build tests/CMakeFiles/net_interface.dir/net_interface.cc.o: CXX_COMPILER__net_interface_Debug /Users/cl/Code/C/sponge-cl/tests/net_interface.cc || cmake_object_order_depends_target_net_interface
+  DEP_FILE = tests/CMakeFiles/net_interface.dir/net_interface.cc.o.d
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/cl/Code/C/sponge-cl/libsponge/util -I/Users/cl/Code/C/sponge-cl/libsponge/tcp_helpers -I/Users/cl/Code/C/sponge-cl/libsponge
+  OBJECT_DIR = tests/CMakeFiles/net_interface.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/net_interface.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target net_interface
+
+
+#############################################
+# Link the executable tests/net_interface
+
+build tests/net_interface: CXX_EXECUTABLE_LINKER__net_interface_Debug tests/CMakeFiles/net_interface.dir/net_interface.cc.o | tests/libspongechecks.a libsponge/libsponge.a || libsponge/libsponge.a tests/libspongechecks.a
+  FLAGS = -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -Wloop-analysis -g -ggdb3 -Og -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = tests/libspongechecks.a  libsponge/libsponge.a
+  OBJECT_DIR = tests/CMakeFiles/net_interface.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/net_interface
+  TARGET_PDB = net_interface.dbg
+
 
 #############################################
 # Utility command for test
@@ -4991,6 +5222,8 @@ build libspongechecks.a: phony tests/libspongechecks.a
 
 build libstream_copy.a: phony apps/libstream_copy.a
 
+build net_interface: phony tests/net_interface
+
 build parser_dt: phony doctests/parser_dt
 
 build recv_close: phony tests/recv_close
@@ -5029,6 +5262,8 @@ build stream_copy: phony apps/libstream_copy.a
 
 build tcp_benchmark: phony apps/tcp_benchmark
 
+build tcp_ip_ethernet: phony apps/tcp_ip_ethernet
+
 build tcp_ipv4: phony apps/tcp_ipv4
 
 build tcp_native: phony apps/tcp_native
@@ -5066,7 +5301,7 @@ build all: phony libsponge/all apps/all tests/all doctests/all
 #############################################
 # Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps
 
-build apps/all: phony apps/libstream_copy.a apps/udp_tcpdump apps/tcp_native apps/tun apps/tcp_udp apps/tcp_ipv4 apps/webget apps/tcp_benchmark
+build apps/all: phony apps/libstream_copy.a apps/udp_tcpdump apps/tcp_native apps/tun apps/tcp_udp apps/tcp_ipv4 apps/tcp_ip_ethernet apps/webget apps/tcp_benchmark
 
 # =============================================================================
 
@@ -5087,7 +5322,7 @@ build libsponge/all: phony libsponge/libsponge.a
 #############################################
 # Folder: /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests
 
-build tests/all: phony tests/libspongechecks.a tests/tcp_parser tests/ipv4_parser tests/fsm_active_close tests/fsm_passive_close tests/fsm_ack_rst_relaxed tests/fsm_ack_rst_win_relaxed tests/fsm_stream_reassembler_cap tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_connect_relaxed tests/fsm_listen_relaxed tests/fsm_reorder tests/fsm_loopback tests/fsm_loopback_win tests/fsm_retx_relaxed tests/fsm_retx_win tests/fsm_winsize tests/wrapping_integers_cmp tests/wrapping_integers_unwrap tests/wrapping_integers_wrap tests/wrapping_integers_roundtrip tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes tests/recv_connect tests/recv_transmit tests/recv_window tests/recv_reorder tests/recv_close tests/recv_special tests/send_connect tests/send_transmit tests/send_retx tests/send_ack tests/send_window tests/send_close tests/send_extra
+build tests/all: phony tests/libspongechecks.a tests/tcp_parser tests/ipv4_parser tests/fsm_active_close tests/fsm_passive_close tests/fsm_ack_rst_relaxed tests/fsm_ack_rst_win_relaxed tests/fsm_stream_reassembler_cap tests/fsm_stream_reassembler_single tests/fsm_stream_reassembler_seq tests/fsm_stream_reassembler_dup tests/fsm_stream_reassembler_holes tests/fsm_stream_reassembler_many tests/fsm_stream_reassembler_overlapping tests/fsm_stream_reassembler_win tests/fsm_connect_relaxed tests/fsm_listen_relaxed tests/fsm_reorder tests/fsm_loopback tests/fsm_loopback_win tests/fsm_retx_relaxed tests/fsm_retx_win tests/fsm_winsize tests/wrapping_integers_cmp tests/wrapping_integers_unwrap tests/wrapping_integers_wrap tests/wrapping_integers_roundtrip tests/byte_stream_construction tests/byte_stream_one_write tests/byte_stream_two_writes tests/byte_stream_capacity tests/byte_stream_many_writes tests/recv_connect tests/recv_transmit tests/recv_window tests/recv_reorder tests/recv_close tests/recv_special tests/send_connect tests/send_transmit tests/send_retx tests/send_ack tests/send_window tests/send_close tests/send_extra tests/net_interface
 
 # =============================================================================
 # Unknown Build Time Dependencies.

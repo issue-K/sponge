@@ -93,7 +93,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -113,7 +114,8 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -135,6 +137,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "tests/byte_stream_test_harness.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/network_interface_test_harness.cc",
 			"sourceGroupIndex" : 0
 		}
 	],

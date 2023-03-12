@@ -5,6 +5,8 @@
 #include "tcp_over_ip.hh"
 #include "tun.hh"
 
+#include <map>
+#include <set>
 #include <optional>
 #include <queue>
 
@@ -30,6 +32,9 @@
 //! request or reply, the network interface processes the frame
 //! and learns or replies as necessary.
 class NetworkInterface {
+    static constexpr size_t ARP_INTERVAL = 5 * 1000;
+    static constexpr size_t ARP_EXPIRE = 30 * 1000;
+    using IP = uint32_t;
   private:
     //! Ethernet (known as hardware, network-access-layer, or link-layer) address of the interface
     EthernetAddress _ethernet_address;
@@ -40,6 +45,23 @@ class NetworkInterface {
     //! outbound queue of Ethernet frames that the NetworkInterface wants sent
     std::queue<EthernetFrame> _frames_out{};
 
+    // MY CODE--------------------------------------
+    std::queue<std::pair<IP, InternetDatagram>> wait_frames_{};
+    std::map<IP, EthernetAddress> mp_{};
+    std::map<IP, size_t> expired_mp_{};
+    // 为了放置arp请求过多, 记录上一次对该ip发出arp请求时对时间戳
+    std::map<IP, size_t> preArp_{};
+    size_t time_since_{0};
+
+
+    [[nodiscard]] bool CanIPToEthernet(const IP &ip) const;
+    [[nodiscard]] EthernetAddress IPToEthernet(const IP &ip) const;
+    void DeleteIPMap(const IP& ip);
+    void AddIPMap(const IP& ip, const EthernetAddress& mac);
+    [[nodiscard]] bool ShouldSendArp(const IP& ip) const;
+    void SendArp(const uint32_t& dst_ip, const EthernetAddress& mac, uint16_t op);
+    void SendIPV4(const EthernetAddress &dst, const InternetDatagram &dgram);
+    void SendWait();
   public:
     //! \brief Construct a network interface with given Ethernet (network-access-layer) and IP (internet-layer) addresses
     NetworkInterface(const EthernetAddress &ethernet_address, const Address &ip_address);

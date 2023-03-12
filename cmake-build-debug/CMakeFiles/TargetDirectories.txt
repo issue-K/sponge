@@ -4,6 +4,8 @@
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_apps__tcp_benchmark.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_apps__tcp_benchmark.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_apps__tcp_ip_ethernet.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_apps__tcp_ipv4.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_apps__tcp_ipv4.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_apps__tcp_native.cc.dir
@@ -38,10 +40,18 @@
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_doctests__socket_example_3.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_libsponge__byte_stream.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_libsponge__network_interface.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_libsponge__network_interface.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_libsponge__stream_reassembler.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_libsponge__tcp_connection.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_libsponge__tcp_connection.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_tcp_helpers__arp_message.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_tcp_helpers__ethernet_header.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_tcp_helpers__fd_adapter.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_tcp_helpers__fd_adapter.cc.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/CMakeFiles/tidy_quiet_tcp_helpers__ipv4_datagram.cc.dir
@@ -214,6 +224,7 @@
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps/CMakeFiles/tun.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps/CMakeFiles/tcp_udp.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps/CMakeFiles/tcp_ipv4.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/apps/CMakeFiles/tcp_ip_ethernet.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps/CMakeFiles/webget.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps/CMakeFiles/tcp_benchmark.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/apps/CMakeFiles/test.dir
@@ -264,6 +275,7 @@
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests/CMakeFiles/send_window.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests/CMakeFiles/send_close.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests/CMakeFiles/send_extra.dir
+/Users/cl/Code/C/sponge-cl/cmake-build-debug/tests/CMakeFiles/net_interface.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests/CMakeFiles/test.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
 /Users/cl/Code/C/sponge-cl/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
